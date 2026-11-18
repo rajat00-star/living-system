@@ -10,7 +10,7 @@ uniform float uPointSize;
 uniform float uPixelRatio;
 uniform float uOpacity;
 uniform float uDissociate;    // 0 nested core, 1 every torus at its specimen
-uniform vec3 uSlots[8];       // where each torus goes when the core separates
+uniform vec3 uSlots[TORI];    // where each torus goes when the core separates; TORI is set from the data
 uniform float uHighlight;     // index of the torus under the pointer, or -1
 uniform vec3 uClassColor[4];
 uniform float uClassAlpha[4];

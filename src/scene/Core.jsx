@@ -91,6 +91,8 @@ export function Core({ store, snapshot, geometry, layout, quality }) {
       new ShaderMaterial({
         vertexShader,
         fragmentShader,
+        // One slot per torus, however many public repositories there are.
+        defines: { TORI: Math.max(1, slots.length) },
         transparent: true,
         depthWrite: false,
         blending: AdditiveBlending,
@@ -102,7 +104,7 @@ export function Core({ store, snapshot, geometry, layout, quality }) {
           uPixelRatio: { value: 1 },
           uOpacity: { value: 1 },
           uDissociate: { value: 0 },
-          uSlots: { value: Array.from({ length: 8 }, (_, i) => slots[i] ?? new Vector3()) },
+          uSlots: { value: slots.length ? slots : [new Vector3()] },
           uHighlight: { value: -1 },
           uClassColor: { value: fileClassColors.map((c) => new Color(c)) },
           uClassAlpha: { value: [0.62, 0.66, 0.34, 0.16] },
