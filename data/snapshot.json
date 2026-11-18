@@ -1,0 +1,5186 @@
+{
+ "schema": 1,
+ "generatedAt": "2026-11-18T15:08:08.821Z",
+ "source": {
+  "authenticated": true,
+  "calendar": "public-page",
+  "requests": 44,
+  "notModified": 41
+ },
+ "profile": {
+  "login": "rajat00-star",
+  "name": "Rajat S",
+  "bio": "Building at the intersection of Software Engineering & AI | Microsoft Intern | Campus Ambassador | CSE (Data Science)",
+  "location": "Delhi",
+  "url": "https://github.com/rajat00-star",
+  "createdAt": "2026-08-06T10:19:00Z",
+  "publicRepos": 7,
+  "followers": 2,
+  "following": 0
+ },
+ "identity": {
+  "name": "Rajat Sanger",
+  "role": "AI/ML engineer and full-stack developer"
+ },
+ "links": {
+  "github": "https://github.com/rajat00-star",
+  "linkedin": "https://www.linkedin.com/in/rajatsanger",
+  "email": "sangerrajat0@gmail.com",
+  "portfolio": "",
+  "site": "https://rajat00-star.github.io/living-system/"
+ },
+ "totals": {
+  "repos": 7,
+  "files": 1085,
+  "directories": 279,
+  "bytes": 2641407,
+  "languages": 10,
+  "technologies": 40,
+  "stars": 0,
+  "forks": 0,
+  "openIssues": 0,
+  "commits": 91,
+  "followers": 2,
+  "contributions": 29,
+  "activeDays": 13,
+  "ageDays": 104
+ },
+ "languages": [
+  {
+   "name": "Python",
+   "bytes": 1070545,
+   "repos": [
+    "SafeCircle",
+    "pramaan",
+    "CodeForge"
+   ],
+   "share": 0.4053
+  },
+  {
+   "name": "TypeScript",
+   "bytes": 1049205,
+   "repos": [
+    "SafeCircle",
+    "OmniPilot",
+    "pramaan",
+    "CodeForge"
+   ],
+   "share": 0.3972
+  },
+  {
+   "name": "JavaScript",
+   "bytes": 289342,
+   "repos": [
+    "SafeCircle",
+    "OmniPilot",
+    "CodeForge"
+   ],
+   "share": 0.1095
+  },
+  {
+   "name": "CSS",
+   "bytes": 174704,
+   "repos": [
+    "SafeCircle",
+    "OmniPilot",
+    "CodeForge"
+   ],
+   "share": 0.0661
+  },
+  {
+   "name": "HTML",
+   "bytes": 44412,
+   "repos": [
+    "SafeCircle",
+    "OmniPilot",
+    "pramaan"
+   ],
+   "share": 0.0168
+  },
+  {
+   "name": "C++",
+   "bytes": 4804,
+   "repos": [
+    "CodeForge",
+    "Leetcode"
+   ],
+   "share": 0.0018
+  },
+  {
+   "name": "Dockerfile",
+   "bytes": 4560,
+   "repos": [
+    "SafeCircle",
+    "pramaan",
+    "CodeForge"
+   ],
+   "share": 0.0017
+  },
+  {
+   "name": "Makefile",
+   "bytes": 1977,
+   "repos": [
+    "CodeForge"
+   ],
+   "share": 0.0007
+  },
+  {
+   "name": "Mako",
+   "bytes": 1408,
+   "repos": [
+    "SafeCircle",
+    "CodeForge"
+   ],
+   "share": 0.0005
+  },
+  {
+   "name": "Shell",
+   "bytes": 450,
+   "repos": [
+    "SafeCircle",
+    "CodeForge"
+   ],
+   "share": 0.0002
+  }
+ ],
+ "repos": [
+  {
+   "id": "safecircle",
+   "name": "SafeCircle",
+   "displayName": "SafeCircle Guardian",
+   "featured": true,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/SafeCircle",
+   "description": "SafeCircle Guardian detects scam patterns across UPI, banking, and digital wallets by connecting evidence, reassessing risk, and reducing duplicate alerts. Built with FastAPI and Next.js, it offers explainable detection, QR checks, OCR forensics, scam-network analysis, and privacy-first safeguards.",
+   "homepage": null,
+   "license": "NOASSERTION",
+   "defaultBranch": "presentation",
+   "createdAt": "2026-10-20T06:07:16Z",
+   "pushedAt": "2026-10-20T06:19:52Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 19768,
+   "topics": [],
+   "primaryLanguage": "Python",
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 442160,
+     "share": 0.3877
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 317135,
+     "share": 0.2781
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 270222,
+     "share": 0.237
+    },
+    {
+     "name": "CSS",
+     "bytes": 97761,
+     "share": 0.0857
+    },
+    {
+     "name": "HTML",
+     "bytes": 10833,
+     "share": 0.0095
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 1233,
+     "share": 0.0011
+    },
+    {
+     "name": "Mako",
+     "bytes": 704,
+     "share": 0.0006
+    },
+    {
+     "name": "Shell",
+     "bytes": 357,
+     "share": 0.0003
+    }
+   ],
+   "bytes": 1140405,
+   "commits": {
+    "count": 29,
+    "head": {
+     "sha": "7f1c53e6db0b6d4749426f09d425a0e1e2f16385",
+     "message": "Presentation: editable PS02 pitch deck (10 slides + appendix), interactive 3D walkthrough with …",
+     "date": "2026-10-12T10:18:07Z",
+     "url": "https://github.com/rajat00-star/SafeCircle/commit/7f1c53e6db0b6d4749426f09d425a0e1e2f16385"
+    }
+   },
+   "morphology": {
+    "files": 333,
+    "directories": 71,
+    "maxDepth": 6,
+    "classes": {
+     "source": 178,
+     "docs": 35,
+     "config": 44,
+     "other": 76
+    },
+    "topLevel": [
+     {
+      "name": "presentation",
+      "type": "dir",
+      "files": 87
+     },
+     {
+      "name": "backend",
+      "type": "dir",
+      "files": 66
+     },
+     {
+      "name": "frontend",
+      "type": "dir",
+      "files": 55
+     },
+     {
+      "name": "docs",
+      "type": "dir",
+      "files": 35
+     },
+     {
+      "name": "evaluation",
+      "type": "dir",
+      "files": 35
+     },
+     {
+      "name": "extension",
+      "type": "dir",
+      "files": 21
+     },
+     {
+      "name": "e2e",
+      "type": "dir",
+      "files": 10
+     },
+     {
+      "name": "slides",
+      "type": "dir",
+      "files": 9
+     },
+     {
+      "name": "paper",
+      "type": "dir",
+      "files": 2
+     },
+     {
+      "name": ".claude",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".github",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".dockerignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".DS_Store",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".env.example",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "docker-compose.yml",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "Dockerfile",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "LICENSE",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "render.yaml",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "SECURITY.md",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "STATUS.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [
+    {
+     "path": "backend/requirements-ai.txt",
+     "kind": "pip",
+     "dependencies": [
+      "anthropic"
+     ],
+     "devDependencies": []
+    },
+    {
+     "path": "backend/requirements-dev.txt",
+     "kind": "pip",
+     "dependencies": [],
+     "devDependencies": [
+      "pytest",
+      "httpx",
+      "matplotlib",
+      "pandas",
+      "anthropic"
+     ]
+    },
+    {
+     "path": "backend/requirements.txt",
+     "kind": "pip",
+     "dependencies": [
+      "fastapi",
+      "uvicorn",
+      "sqlalchemy",
+      "alembic",
+      "pydantic",
+      "pydantic-settings",
+      "psycopg2-binary",
+      "scikit-learn",
+      "numpy",
+      "scipy",
+      "joblib",
+      "tldextract",
+      "pillow"
+     ],
+     "devDependencies": []
+    },
+    {
+     "path": "e2e/package.json",
+     "kind": "npm",
+     "dependencies": [
+      "playwright-core"
+     ],
+     "devDependencies": []
+    },
+    {
+     "path": "extension/manifest.json",
+     "kind": "extension",
+     "dependencies": [],
+     "devDependencies": []
+    },
+    {
+     "path": "frontend/package.json",
+     "kind": "npm",
+     "dependencies": [
+      "next",
+      "react",
+      "react-dom",
+      "three"
+     ],
+     "devDependencies": [
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "@types/three",
+      "@types/topojson-client",
+      "topojson-client",
+      "typescript",
+      "world-atlas"
+     ]
+    },
+    {
+     "path": "presentation/deck/package.json",
+     "kind": "npm",
+     "dependencies": [
+      "pptxgenjs"
+     ],
+     "devDependencies": []
+    }
+   ],
+   "tech": [
+    {
+     "id": "alembic",
+     "evidence": [
+      "backend/alembic.ini",
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "anthropic",
+     "evidence": [
+      "backend/requirements-ai.txt",
+      "backend/requirements-dev.txt"
+     ]
+    },
+    {
+     "id": "chrome-mv3",
+     "evidence": [
+      "extension/manifest.json"
+     ]
+    },
+    {
+     "id": "docker",
+     "evidence": [
+      "Dockerfile",
+      "GitHub language statistics",
+      "docker-compose.yml"
+     ]
+    },
+    {
+     "id": "fastapi",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "github-actions",
+     "evidence": [
+      ".github/workflows/ci.yml"
+     ]
+    },
+    {
+     "id": "httpx",
+     "evidence": [
+      "backend/requirements-dev.txt"
+     ]
+    },
+    {
+     "id": "nextjs",
+     "evidence": [
+      "frontend/package.json"
+     ]
+    },
+    {
+     "id": "numpy",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "playwright",
+     "evidence": [
+      "e2e/package.json"
+     ]
+    },
+    {
+     "id": "postgresql",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "pydantic",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "pytest",
+     "evidence": [
+      "backend/requirements-dev.txt"
+     ]
+    },
+    {
+     "id": "react",
+     "evidence": [
+      "frontend/package.json"
+     ]
+    },
+    {
+     "id": "scikit-learn",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "scipy",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "sqlalchemy",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "threejs",
+     "evidence": [
+      "frontend/package.json"
+     ]
+    }
+   ],
+   "signature": "perimeter",
+   "stages": {
+    "items": [
+     "Approach",
+     "Pressure",
+     "Harvest",
+     "Control",
+     "Extraction"
+    ],
+    "quote": "Approach → Pressure → Harvest → Control → Extraction",
+    "path": "README.md",
+    "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+   },
+   "layers": [
+    {
+     "name": "backend/",
+     "dir": "backend",
+     "quote": "backend/ FastAPI app, detector, models, Alembic migrations, tests",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "name": "frontend/",
+     "dir": "frontend",
+     "quote": "frontend/ Next.js 15 + TypeScript dashboard (static export served by the API)",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "name": "extension/",
+     "dir": "extension",
+     "quote": "extension/ Chrome/Edge Manifest V3 extension",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "name": "evaluation/",
+     "dir": "evaluation",
+     "quote": "evaluation/ training + evaluation scripts, datasets, results",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "name": "e2e/",
+     "dir": "e2e",
+     "quote": "e2e/ Playwright end-to-end and extension tests",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "name": "presentation/",
+     "dir": "presentation",
+     "quote": "presentation/ PS02 pitch deck (.pptx, 10 slides + appendix) and the interactive 3D architecture site",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    }
+   ],
+   "notes": [
+    {
+     "title": "A case, not a message",
+     "quote": "Add messages, call notes, links and screenshots as they arrive; each one re-evaluates the case.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "Local OCR",
+     "quote": "a screenshot read locally with Tesseract (image never stored)",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "Payments untouched",
+     "quote": "It never sees, blocks or approves a real payment, and it consults no bank or NPCI data.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "Alert discipline",
+     "quote": "unchanged evidence is suppressed; alerts fire only when risk rises or a new high-weight tactic appears",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "No paid model",
+     "quote": "No paid API, API key or external model is needed.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "Measured, with its caveat",
+     "quote": "precision 0.885 (23/26), recall 0.958 (23/24), false-positive rate 0.111 (3/27); keyword baseline 0.826 / 0.792 / 0.148. Synthetic results do not show real-world accuracy.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    },
+    {
+     "title": "Stated limit",
+     "quote": "Risk scores are heuristic indicators from transparent rules, not calibrated probabilities of fraud.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/SafeCircle/blob/7f1c53e6db0b6d4749426f09d425a0e1e2f16385/README.md"
+    }
+   ],
+   "contributions": 1
+  },
+  {
+   "id": "omnipilot",
+   "name": "OmniPilot",
+   "displayName": "OmniPilot",
+   "featured": true,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/OmniPilot",
+   "description": "AI-powered browser automation and task execution platform",
+   "homepage": null,
+   "license": null,
+   "defaultBranch": "main",
+   "createdAt": "2026-10-28T15:25:49Z",
+   "pushedAt": "2026-10-29T08:15:42Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 79823,
+   "topics": [],
+   "primaryLanguage": "TypeScript",
+   "languages": [
+    {
+     "name": "TypeScript",
+     "bytes": 540884,
+     "share": 0.8569
+    },
+    {
+     "name": "CSS",
+     "bytes": 75147,
+     "share": 0.1191
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 14036,
+     "share": 0.0222
+    },
+    {
+     "name": "HTML",
+     "bytes": 1110,
+     "share": 0.0018
+    }
+   ],
+   "bytes": 631177,
+   "commits": {
+    "count": 14,
+    "head": {
+     "sha": "a6c013a78dd7dd158caf23f311d8ee275e7a1cc6",
+     "message": "Build cinematic 3D OmniPilot experience",
+     "date": "2026-10-29T08:15:19Z",
+     "url": "https://github.com/rajat00-star/OmniPilot/commit/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6"
+    }
+   },
+   "morphology": {
+    "files": 353,
+    "directories": 46,
+    "maxDepth": 6,
+    "classes": {
+     "source": 83,
+     "docs": 113,
+     "config": 31,
+     "other": 126
+    },
+    "topLevel": [
+     {
+      "name": "docs",
+      "type": "dir",
+      "files": 271
+     },
+     {
+      "name": "web",
+      "type": "dir",
+      "files": 25
+     },
+     {
+      "name": "server",
+      "type": "dir",
+      "files": 23
+     },
+     {
+      "name": "tests",
+      "type": "dir",
+      "files": 22
+     },
+     {
+      "name": "scripts",
+      "type": "dir",
+      "files": 3
+     },
+     {
+      "name": ".env.example",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "omnipilot-finale-changes.patch",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "package-lock.json",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "package.json",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "tsconfig.json",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "vite.config.ts",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "vitest.config.ts",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [
+    {
+     "path": "package.json",
+     "kind": "npm",
+     "dependencies": [
+      "@anthropic-ai/sdk",
+      "csv-parse",
+      "csv-stringify",
+      "express",
+      "lucide-react",
+      "motion",
+      "node-html-parser",
+      "playwright",
+      "react",
+      "react-dom",
+      "three",
+      "zod"
+     ],
+     "devDependencies": [
+      "@types/express",
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "@types/three",
+      "@vitejs/plugin-react",
+      "concurrently",
+      "tsx",
+      "typescript",
+      "vite",
+      "vitest"
+     ]
+    }
+   ],
+   "tech": [
+    {
+     "id": "anthropic",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "express",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "motion",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "playwright",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "react",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "threejs",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "vite",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "vitest",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "zod",
+     "evidence": [
+      "package.json"
+     ]
+    }
+   ],
+   "signature": "trajectory",
+   "stages": {
+    "items": [
+     "Understand",
+     "Plan",
+     "Execute",
+     "Observe",
+     "Verify",
+     "Deliver"
+    ],
+    "quote": "The core loop is Understand → Plan → Execute → Observe → Verify → Deliver",
+    "path": "README.md",
+    "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+   },
+   "layers": [
+    {
+     "name": "server/",
+     "dir": "server",
+     "quote": "server/ Express + TypeScript backend",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "server/core/",
+     "dir": "server/core",
+     "quote": "core/ engine, planner, state machine, extraction, analysis, artifacts, verifier, store, vision (screenshot reading)",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "server/tools/",
+     "dir": "server/tools",
+     "quote": "tools/ registered tool allowlist (browser., research.collect, analysis.compare, artifact., verifier.check, report.finalize)",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "server/browser/",
+     "dir": "server/browser",
+     "quote": "browser/ Playwright lifecycle, navigation, extraction script, offline render",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "server/security/",
+     "dir": "server/security",
+     "quote": "security/ URL/redirect policy, artifact path confinement",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "server/llm/",
+     "dir": "server/llm",
+     "quote": "llm/ Claude client, structured outputs, untrusted-content wrapping",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "web/",
+     "dir": "web",
+     "quote": "web/ React + Vite UI: workspace, Judge Mode and dashboard",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "name": "tests/",
+     "dir": "tests",
+     "quote": "tests/ Vitest unit + integration tests, Playwright UI end-to-end script",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    }
+   ],
+   "notes": [
+    {
+     "title": "Intent in",
+     "quote": "You describe an outcome in plain language.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "title": "Approval gate",
+     "quote": "Nothing runs before approval.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "title": "Independent verification",
+     "quote": "It then independently verifies every file and every quoted fact before it reports back.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "title": "Cited reasoning",
+     "quote": "Every claim must cite observation ids that exist; uncited claims are discarded and counted.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "title": "No invented zeros",
+     "quote": "Missing prices are reported as \"Not found\", never as zero.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    },
+    {
+     "title": "Stated limit",
+     "quote": "Verification proves file integrity and that quotes match the stored pages. It does not prove that vendor claims are true or current.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/OmniPilot/blob/a6c013a78dd7dd158caf23f311d8ee275e7a1cc6/README.md"
+    }
+   ],
+   "contributions": 2
+  },
+  {
+   "id": "pramaan",
+   "name": "pramaan",
+   "displayName": "PraMaan",
+   "featured": true,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/pramaan",
+   "description": "PraMaan — an AI-powered, evidence-backed packaged commodity compliance checker using multilingual OCR and a deterministic, versioned Legal Metrology rule engine.",
+   "homepage": null,
+   "license": null,
+   "defaultBranch": "main",
+   "createdAt": "2026-09-05T06:28:11Z",
+   "pushedAt": "2026-09-05T08:44:08Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 21468,
+   "topics": [],
+   "primaryLanguage": "Python",
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 171449,
+     "share": 0.5545
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 104242,
+     "share": 0.3371
+    },
+    {
+     "name": "HTML",
+     "bytes": 32469,
+     "share": 0.105
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 1028,
+     "share": 0.0033
+    }
+   ],
+   "bytes": 309188,
+   "commits": {
+    "count": 3,
+    "head": {
+     "sha": "88d744d2c647fefda2667d800e16c9b34f8e4fb2",
+     "message": "Fix physical-iOS scan upload: replace broken fetch()+FormData with expo-file-system UploadTask",
+     "date": "2026-09-05T08:43:55Z",
+     "url": "https://github.com/rajat00-star/pramaan/commit/88d744d2c647fefda2667d800e16c9b34f8e4fb2"
+    }
+   },
+   "morphology": {
+    "files": 155,
+    "directories": 39,
+    "maxDepth": 6,
+    "classes": {
+     "source": 80,
+     "docs": 17,
+     "config": 39,
+     "other": 19
+    },
+    "topLevel": [
+     {
+      "name": "docs",
+      "type": "dir",
+      "files": 55
+     },
+     {
+      "name": "frontend",
+      "type": "dir",
+      "files": 53
+     },
+     {
+      "name": "backend",
+      "type": "dir",
+      "files": 42
+     },
+     {
+      "name": ".github",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "docker-compose.yml",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "Dockerfile",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [
+    {
+     "path": "backend/pyproject.toml",
+     "kind": "pip",
+     "dependencies": [],
+     "devDependencies": []
+    },
+    {
+     "path": "backend/requirements.txt",
+     "kind": "pip",
+     "dependencies": [
+      "aiofiles",
+      "bcrypt",
+      "fastapi",
+      "httpx",
+      "opencv-python-headless",
+      "pillow",
+      "psycopg",
+      "psycopg-binary",
+      "python-multipart",
+      "pydantic",
+      "pydantic-settings",
+      "pydantic-core",
+      "pyjwt",
+      "pytesseract",
+      "pytest",
+      "pytest-asyncio",
+      "sqlalchemy",
+      "uvicorn"
+     ],
+     "devDependencies": []
+    },
+    {
+     "path": "frontend/mobile/package.json",
+     "kind": "npm",
+     "dependencies": [
+      "@expo/metro-runtime",
+      "@react-navigation/bottom-tabs",
+      "@react-navigation/native",
+      "@react-navigation/native-stack",
+      "expo",
+      "expo-constants",
+      "expo-file-system",
+      "expo-image-picker",
+      "expo-secure-store",
+      "expo-status-bar",
+      "react",
+      "react-dom",
+      "react-native",
+      "react-native-safe-area-context",
+      "react-native-screens",
+      "react-native-web"
+     ],
+     "devDependencies": [
+      "@types/jest",
+      "@types/react",
+      "jest",
+      "jest-expo",
+      "typescript"
+     ]
+    }
+   ],
+   "tech": [
+    {
+     "id": "docker",
+     "evidence": [
+      "Dockerfile",
+      "GitHub language statistics",
+      "docker-compose.yml"
+     ]
+    },
+    {
+     "id": "expo",
+     "evidence": [
+      "frontend/mobile/package.json"
+     ]
+    },
+    {
+     "id": "fastapi",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "github-actions",
+     "evidence": [
+      ".github/workflows/ci.yml"
+     ]
+    },
+    {
+     "id": "httpx",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "jest",
+     "evidence": [
+      "frontend/mobile/package.json"
+     ]
+    },
+    {
+     "id": "opencv",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "postgresql",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "pydantic",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "pytest",
+     "evidence": [
+      "backend/pytest.ini",
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "react",
+     "evidence": [
+      "frontend/mobile/package.json"
+     ]
+    },
+    {
+     "id": "react-native",
+     "evidence": [
+      "frontend/mobile/package.json"
+     ]
+    },
+    {
+     "id": "sqlalchemy",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    },
+    {
+     "id": "tesseract",
+     "evidence": [
+      "backend/requirements.txt"
+     ]
+    }
+   ],
+   "signature": "lattice",
+   "stages": {
+    "items": [
+     "Photo",
+     "Preprocessing",
+     "Label region",
+     "OCR",
+     "Extraction",
+     "Rule engine",
+     "Verdict",
+     "Evidence",
+     "Confidence gate",
+     "Human review",
+     "Audit trail"
+    ],
+    "quote": "Product photo → preprocessing → label region → multilingual OCR → field extraction → deterministic rule engine (versioned rule pack) → verdict → evidence + legal clause → confidence gate → human review → audit trail",
+    "path": "README.md",
+    "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+   },
+   "layers": [
+    {
+     "name": "API",
+     "dir": null,
+     "quote": "FastAPI, JWT auth, role-based authorization on every protected route",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "name": "Pipeline",
+     "dir": null,
+     "quote": "Preprocessing (OpenCV) → label detection (honest full-image fallback) → OCR (real Tesseract) → extraction (regex, English + Hindi keywords) → rule engine → verdict",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "name": "Mobile app",
+     "dir": "frontend/mobile",
+     "quote": "React Native + Expo + TypeScript, one app for both Citizen and Inspector roles",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "name": "Data",
+     "dir": null,
+     "quote": "SQLAlchemy ORM; SQLite for local dev, PostgreSQL verified for production",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    }
+   ],
+   "notes": [
+    {
+     "title": "The central principle",
+     "quote": "AI/CV does observation (\"what text appears to be on this label?\"); it never decides law.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "No LLM in the verdict",
+     "quote": "No LLM is anywhere in that decision path",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "Law as data",
+     "quote": "Every legal number (tolerance percentages, band thresholds) is data in rule_pack_v1.json, not a Python constant.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "Replayable verdicts",
+     "quote": "Every scan stores rule_pack_version + a SHA-256 rule_pack_hash of the exact file bytes used.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "Uncertainty goes to a person",
+     "quote": "a field below CONFIDENCE_THRESHOLD (default 60%) or not found at all becomes REVIEW, never a silently-invented PASS/FAIL.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "Tests",
+     "quote": "117 tests, 117 passing, 1 intentionally skipped",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    },
+    {
+     "title": "Stated limit",
+     "quote": "OCR-level determinism is NOT guaranteed across different Tesseract builds",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/pramaan/blob/88d744d2c647fefda2667d800e16c9b34f8e4fb2/README.md"
+    }
+   ],
+   "contributions": 1
+  },
+  {
+   "id": "codeforge",
+   "name": "CodeForge",
+   "displayName": "CodeForge",
+   "featured": false,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/CodeForge",
+   "description": "AI-powered autonomous software engineering platform",
+   "homepage": null,
+   "license": null,
+   "defaultBranch": "master",
+   "createdAt": "2026-08-17T04:33:30Z",
+   "pushedAt": "2026-08-17T04:49:04Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 363,
+   "topics": [],
+   "primaryLanguage": "Python",
+   "languages": [
+    {
+     "name": "Python",
+     "bytes": 456936,
+     "share": 0.8156
+    },
+    {
+     "name": "TypeScript",
+     "bytes": 86944,
+     "share": 0.1552
+    },
+    {
+     "name": "JavaScript",
+     "bytes": 5084,
+     "share": 0.0091
+    },
+    {
+     "name": "C++",
+     "bytes": 4436,
+     "share": 0.0079
+    },
+    {
+     "name": "Dockerfile",
+     "bytes": 2299,
+     "share": 0.0041
+    },
+    {
+     "name": "Makefile",
+     "bytes": 1977,
+     "share": 0.0035
+    },
+    {
+     "name": "CSS",
+     "bytes": 1796,
+     "share": 0.0032
+    },
+    {
+     "name": "Mako",
+     "bytes": 704,
+     "share": 0.0013
+    },
+    {
+     "name": "Shell",
+     "bytes": 93,
+     "share": 0.0002
+    }
+   ],
+   "bytes": 560269,
+   "commits": {
+    "count": 20,
+    "head": {
+     "sha": "ded16996d361c820916937d285b858065f757338",
+     "message": "docs: update project setup and usage guide",
+     "date": "2026-08-17T04:48:55Z",
+     "url": "https://github.com/rajat00-star/CodeForge/commit/ded16996d361c820916937d285b858065f757338"
+    }
+   },
+   "morphology": {
+    "files": 224,
+    "directories": 119,
+    "maxDepth": 6,
+    "classes": {
+     "source": 166,
+     "docs": 16,
+     "config": 35,
+     "other": 7
+    },
+    "topLevel": [
+     {
+      "name": "apps",
+      "type": "dir",
+      "files": 136
+     },
+     {
+      "name": "benchmarks",
+      "type": "dir",
+      "files": 68
+     },
+     {
+      "name": "sample-repositories",
+      "type": "dir",
+      "files": 8
+     },
+     {
+      "name": "docs",
+      "type": "dir",
+      "files": 6
+     },
+     {
+      "name": ".dockerignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".env.example",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "docker-compose.yml",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "Makefile",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [
+    {
+     "path": "apps/api/requirements.txt",
+     "kind": "pip",
+     "dependencies": [
+      "pydantic",
+      "httpx",
+      "httpx-sse",
+      "fastapi",
+      "uvicorn",
+      "sqlalchemy",
+      "alembic",
+      "psycopg",
+      "redis",
+      "pytest",
+      "pytest-asyncio"
+     ],
+     "devDependencies": []
+    },
+    {
+     "path": "apps/web/package.json",
+     "kind": "npm",
+     "dependencies": [
+      "@monaco-editor/react",
+      "next",
+      "react",
+      "react-dom"
+     ],
+     "devDependencies": [
+      "@tailwindcss/postcss",
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "eslint",
+      "eslint-config-next",
+      "tailwindcss",
+      "typescript"
+     ]
+    }
+   ],
+   "tech": [
+    {
+     "id": "alembic",
+     "evidence": [
+      "apps/api/alembic.ini",
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "docker",
+     "evidence": [
+      "GitHub language statistics",
+      "apps/api/Dockerfile",
+      "docker-compose.yml"
+     ]
+    },
+    {
+     "id": "fastapi",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "httpx",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "monaco",
+     "evidence": [
+      "apps/web/package.json"
+     ]
+    },
+    {
+     "id": "nextjs",
+     "evidence": [
+      "apps/web/package.json"
+     ]
+    },
+    {
+     "id": "postgresql",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "pydantic",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "pytest",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "react",
+     "evidence": [
+      "apps/web/package.json"
+     ]
+    },
+    {
+     "id": "redis",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "sqlalchemy",
+     "evidence": [
+      "apps/api/requirements.txt"
+     ]
+    },
+    {
+     "id": "tailwind",
+     "evidence": [
+      "apps/web/package.json"
+     ]
+    }
+   ],
+   "signature": "loop",
+   "stages": {
+    "items": [
+     "Analyze",
+     "Plan",
+     "Edit",
+     "Test",
+     "Diagnose",
+     "Repair",
+     "Report"
+    ],
+    "quote": "it analyzes the codebase, plans a fix, edits files through an audited tool layer, runs the repository's real test suite, diagnoses failures, repairs its own implementation across bounded retries, and reports a real diff",
+    "path": "README.md",
+    "url": "https://github.com/rajat00-star/CodeForge/blob/ded16996d361c820916937d285b858065f757338/README.md"
+   },
+   "layers": [],
+   "notes": [
+    {
+     "title": "Core principle",
+     "quote": "never simulate an operation that didn't actually happen.",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/CodeForge/blob/ded16996d361c820916937d285b858065f757338/README.md"
+    },
+    {
+     "title": "Sandbox",
+     "quote": "non-root, no network, read-only root filesystem, resource limits, dropped capabilities",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/CodeForge/blob/ded16996d361c820916937d285b858065f757338/README.md"
+    },
+    {
+     "title": "No guessed costs",
+     "quote": "an unpriced model reports null, never a guessed cost",
+     "path": "README.md",
+     "url": "https://github.com/rajat00-star/CodeForge/blob/ded16996d361c820916937d285b858065f757338/README.md"
+    }
+   ],
+   "contributions": 1
+  },
+  {
+   "id": "rajat00-star",
+   "name": "rajat00-star",
+   "displayName": "Profile README",
+   "featured": false,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/rajat00-star",
+   "description": "gitfix",
+   "homepage": null,
+   "license": null,
+   "defaultBranch": "main",
+   "createdAt": "2026-08-15T14:15:29Z",
+   "pushedAt": "2026-11-18T06:48:21Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 78,
+   "topics": [],
+   "primaryLanguage": null,
+   "languages": [],
+   "bytes": 0,
+   "commits": {
+    "count": 23,
+    "head": {
+     "sha": "8c40dac3a2cb443ce6f002a5e41695a298c79c28",
+     "message": "Update snake.yml",
+     "date": "2026-08-26T07:46:30Z",
+     "url": "https://github.com/rajat00-star/rajat00-star/commit/8c40dac3a2cb443ce6f002a5e41695a298c79c28"
+    }
+   },
+   "morphology": {
+    "files": 15,
+    "directories": 3,
+    "maxDepth": 2,
+    "classes": {
+     "source": 0,
+     "docs": 1,
+     "config": 2,
+     "other": 12
+    },
+    "topLevel": [
+     {
+      "name": "assets",
+      "type": "dir",
+      "files": 13
+     },
+     {
+      "name": ".github",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [],
+   "tech": [
+    {
+     "id": "github-actions",
+     "evidence": [
+      ".github/workflows/snake.yml"
+     ]
+    }
+   ],
+   "signature": null,
+   "stages": null,
+   "layers": [],
+   "notes": [],
+   "contributions": 14
+  },
+  {
+   "id": "hand-tracking-using-opencv",
+   "name": "Hand-Tracking-Using-OpenCV",
+   "displayName": "Hand Tracking",
+   "featured": false,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/Hand-Tracking-Using-OpenCV",
+   "description": "A real-time hand tracking and gesture recognition application built with Python, OpenCV, and computer vision. The project detects and tracks hand landmarks through a webcam, enabling interactive gesture-based control and human-computer interaction.",
+   "homepage": null,
+   "license": "MIT",
+   "defaultBranch": "main",
+   "createdAt": "2026-08-20T07:40:56Z",
+   "pushedAt": "2026-08-20T07:40:57Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 3,
+   "topics": [],
+   "primaryLanguage": null,
+   "languages": [],
+   "bytes": 0,
+   "commits": {
+    "count": 1,
+    "head": {
+     "sha": "e61d9009a4db5ba711c45fc2de004fc274952a87",
+     "message": "Initial commit",
+     "date": "2026-08-20T07:40:57Z",
+     "url": "https://github.com/rajat00-star/Hand-Tracking-Using-OpenCV/commit/e61d9009a4db5ba711c45fc2de004fc274952a87"
+    }
+   },
+   "morphology": {
+    "files": 3,
+    "directories": 0,
+    "maxDepth": 0,
+    "classes": {
+     "source": 0,
+     "docs": 2,
+     "config": 1,
+     "other": 0
+    },
+    "topLevel": [
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "LICENSE",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [],
+   "tech": [],
+   "signature": null,
+   "stages": null,
+   "layers": [],
+   "notes": [],
+   "contributions": 2
+  },
+  {
+   "id": "leetcode",
+   "name": "Leetcode",
+   "displayName": "Leetcode",
+   "featured": false,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/Leetcode",
+   "description": "MyLeetcode journey-DSA problems, solutions and learning progress.",
+   "homepage": null,
+   "license": null,
+   "defaultBranch": "main",
+   "createdAt": "2026-09-04T05:45:18Z",
+   "pushedAt": "2026-09-04T06:02:34Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 0,
+   "topics": [],
+   "primaryLanguage": "C++",
+   "languages": [
+    {
+     "name": "C++",
+     "bytes": 368,
+     "share": 1
+    }
+   ],
+   "bytes": 368,
+   "commits": {
+    "count": 1,
+    "head": {
+     "sha": "8292a1e6f4c1a1aa3b3a72a74e84a3513c0f439f",
+     "message": "solve Leetcode 1: Two Sum",
+     "date": "2026-09-04T05:59:35Z",
+     "url": "https://github.com/rajat00-star/Leetcode/commit/8292a1e6f4c1a1aa3b3a72a74e84a3513c0f439f"
+    }
+   },
+   "morphology": {
+    "files": 2,
+    "directories": 1,
+    "maxDepth": 1,
+    "classes": {
+     "source": 1,
+     "docs": 0,
+     "config": 1,
+     "other": 0
+    },
+    "topLevel": [
+     {
+      "name": "001-two-sum",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [],
+   "tech": [],
+   "signature": null,
+   "stages": null,
+   "layers": [],
+   "notes": [],
+   "contributions": 1
+  }
+ ],
+ "sealed": [
+  {
+   "id": "ultramatrix",
+   "name": "Ultramatrix",
+   "summary": "An AI-powered desktop layer that brings voice, vision, planning and system control into one local assistant.",
+   "source": "Rajat's portfolio. The repository is private, so nothing here can be checked against it publicly."
+  }
+ ],
+ "order": [
+  "ultramatrix",
+  "safecircle",
+  "omnipilot",
+  "pramaan",
+  "codeforge",
+  "rajat00-star",
+  "hand-tracking-using-opencv",
+  "leetcode"
+ ],
+ "calendar": {
+  "from": "2025-11-16",
+  "to": "2026-11-18",
+  "weeks": 53,
+  "days": [
+   [
+    "2025-11-16",
+    0,
+    0
+   ],
+   [
+    "2025-11-17",
+    0,
+    0
+   ],
+   [
+    "2025-11-18",
+    0,
+    0
+   ],
+   [
+    "2025-11-19",
+    0,
+    0
+   ],
+   [
+    "2025-11-20",
+    0,
+    0
+   ],
+   [
+    "2025-11-21",
+    0,
+    0
+   ],
+   [
+    "2025-11-22",
+    0,
+    0
+   ],
+   [
+    "2025-11-23",
+    0,
+    0
+   ],
+   [
+    "2025-11-24",
+    0,
+    0
+   ],
+   [
+    "2025-11-25",
+    0,
+    0
+   ],
+   [
+    "2025-11-26",
+    0,
+    0
+   ],
+   [
+    "2025-11-27",
+    0,
+    0
+   ],
+   [
+    "2025-11-28",
+    0,
+    0
+   ],
+   [
+    "2025-11-29",
+    0,
+    0
+   ],
+   [
+    "2025-11-30",
+    0,
+    0
+   ],
+   [
+    "2025-12-01",
+    0,
+    0
+   ],
+   [
+    "2025-12-02",
+    0,
+    0
+   ],
+   [
+    "2025-12-03",
+    0,
+    0
+   ],
+   [
+    "2025-12-04",
+    0,
+    0
+   ],
+   [
+    "2025-12-05",
+    0,
+    0
+   ],
+   [
+    "2025-12-06",
+    0,
+    0
+   ],
+   [
+    "2025-12-07",
+    0,
+    0
+   ],
+   [
+    "2025-12-08",
+    0,
+    0
+   ],
+   [
+    "2025-12-09",
+    0,
+    0
+   ],
+   [
+    "2025-12-10",
+    0,
+    0
+   ],
+   [
+    "2025-12-11",
+    0,
+    0
+   ],
+   [
+    "2025-12-12",
+    0,
+    0
+   ],
+   [
+    "2025-12-13",
+    0,
+    0
+   ],
+   [
+    "2025-12-14",
+    0,
+    0
+   ],
+   [
+    "2025-12-15",
+    0,
+    0
+   ],
+   [
+    "2025-12-16",
+    0,
+    0
+   ],
+   [
+    "2025-12-17",
+    0,
+    0
+   ],
+   [
+    "2025-12-18",
+    0,
+    0
+   ],
+   [
+    "2025-12-19",
+    0,
+    0
+   ],
+   [
+    "2025-12-20",
+    0,
+    0
+   ],
+   [
+    "2025-12-21",
+    0,
+    0
+   ],
+   [
+    "2025-12-22",
+    0,
+    0
+   ],
+   [
+    "2025-12-23",
+    0,
+    0
+   ],
+   [
+    "2025-12-24",
+    0,
+    0
+   ],
+   [
+    "2025-12-25",
+    0,
+    0
+   ],
+   [
+    "2025-12-26",
+    0,
+    0
+   ],
+   [
+    "2025-12-27",
+    0,
+    0
+   ],
+   [
+    "2025-12-28",
+    0,
+    0
+   ],
+   [
+    "2025-12-29",
+    0,
+    0
+   ],
+   [
+    "2025-12-30",
+    0,
+    0
+   ],
+   [
+    "2025-12-31",
+    0,
+    0
+   ],
+   [
+    "2026-01-01",
+    0,
+    0
+   ],
+   [
+    "2026-01-02",
+    0,
+    0
+   ],
+   [
+    "2026-01-03",
+    0,
+    0
+   ],
+   [
+    "2026-01-04",
+    0,
+    0
+   ],
+   [
+    "2026-01-05",
+    0,
+    0
+   ],
+   [
+    "2026-01-06",
+    0,
+    0
+   ],
+   [
+    "2026-01-07",
+    0,
+    0
+   ],
+   [
+    "2026-01-08",
+    0,
+    0
+   ],
+   [
+    "2026-01-09",
+    0,
+    0
+   ],
+   [
+    "2026-01-10",
+    0,
+    0
+   ],
+   [
+    "2026-01-11",
+    0,
+    0
+   ],
+   [
+    "2026-01-12",
+    0,
+    0
+   ],
+   [
+    "2026-01-13",
+    0,
+    0
+   ],
+   [
+    "2026-01-14",
+    0,
+    0
+   ],
+   [
+    "2026-01-15",
+    0,
+    0
+   ],
+   [
+    "2026-01-16",
+    0,
+    0
+   ],
+   [
+    "2026-01-17",
+    0,
+    0
+   ],
+   [
+    "2026-01-18",
+    0,
+    0
+   ],
+   [
+    "2026-01-19",
+    0,
+    0
+   ],
+   [
+    "2026-01-20",
+    0,
+    0
+   ],
+   [
+    "2026-01-21",
+    0,
+    0
+   ],
+   [
+    "2026-01-22",
+    0,
+    0
+   ],
+   [
+    "2026-01-23",
+    0,
+    0
+   ],
+   [
+    "2026-01-24",
+    0,
+    0
+   ],
+   [
+    "2026-01-25",
+    0,
+    0
+   ],
+   [
+    "2026-01-26",
+    0,
+    0
+   ],
+   [
+    "2026-01-27",
+    0,
+    0
+   ],
+   [
+    "2026-01-28",
+    0,
+    0
+   ],
+   [
+    "2026-01-29",
+    0,
+    0
+   ],
+   [
+    "2026-01-30",
+    0,
+    0
+   ],
+   [
+    "2026-01-31",
+    0,
+    0
+   ],
+   [
+    "2026-02-01",
+    0,
+    0
+   ],
+   [
+    "2026-02-02",
+    0,
+    0
+   ],
+   [
+    "2026-02-03",
+    0,
+    0
+   ],
+   [
+    "2026-02-04",
+    0,
+    0
+   ],
+   [
+    "2026-02-05",
+    0,
+    0
+   ],
+   [
+    "2026-02-06",
+    0,
+    0
+   ],
+   [
+    "2026-02-07",
+    0,
+    0
+   ],
+   [
+    "2026-02-08",
+    0,
+    0
+   ],
+   [
+    "2026-02-09",
+    0,
+    0
+   ],
+   [
+    "2026-02-10",
+    0,
+    0
+   ],
+   [
+    "2026-02-11",
+    0,
+    0
+   ],
+   [
+    "2026-02-12",
+    0,
+    0
+   ],
+   [
+    "2026-02-13",
+    0,
+    0
+   ],
+   [
+    "2026-02-14",
+    0,
+    0
+   ],
+   [
+    "2026-02-15",
+    0,
+    0
+   ],
+   [
+    "2026-02-16",
+    0,
+    0
+   ],
+   [
+    "2026-02-17",
+    0,
+    0
+   ],
+   [
+    "2026-02-18",
+    0,
+    0
+   ],
+   [
+    "2026-02-19",
+    0,
+    0
+   ],
+   [
+    "2026-02-20",
+    0,
+    0
+   ],
+   [
+    "2026-02-21",
+    0,
+    0
+   ],
+   [
+    "2026-02-22",
+    0,
+    0
+   ],
+   [
+    "2026-02-23",
+    0,
+    0
+   ],
+   [
+    "2026-02-24",
+    0,
+    0
+   ],
+   [
+    "2026-02-25",
+    0,
+    0
+   ],
+   [
+    "2026-02-26",
+    0,
+    0
+   ],
+   [
+    "2026-02-27",
+    0,
+    0
+   ],
+   [
+    "2026-02-28",
+    0,
+    0
+   ],
+   [
+    "2026-03-01",
+    0,
+    0
+   ],
+   [
+    "2026-03-02",
+    0,
+    0
+   ],
+   [
+    "2026-03-03",
+    0,
+    0
+   ],
+   [
+    "2026-03-04",
+    0,
+    0
+   ],
+   [
+    "2026-03-05",
+    0,
+    0
+   ],
+   [
+    "2026-03-06",
+    0,
+    0
+   ],
+   [
+    "2026-03-07",
+    0,
+    0
+   ],
+   [
+    "2026-03-08",
+    0,
+    0
+   ],
+   [
+    "2026-03-09",
+    0,
+    0
+   ],
+   [
+    "2026-03-10",
+    0,
+    0
+   ],
+   [
+    "2026-03-11",
+    0,
+    0
+   ],
+   [
+    "2026-03-12",
+    0,
+    0
+   ],
+   [
+    "2026-03-13",
+    0,
+    0
+   ],
+   [
+    "2026-03-14",
+    0,
+    0
+   ],
+   [
+    "2026-03-15",
+    0,
+    0
+   ],
+   [
+    "2026-03-16",
+    0,
+    0
+   ],
+   [
+    "2026-03-17",
+    0,
+    0
+   ],
+   [
+    "2026-03-18",
+    0,
+    0
+   ],
+   [
+    "2026-03-19",
+    0,
+    0
+   ],
+   [
+    "2026-03-20",
+    0,
+    0
+   ],
+   [
+    "2026-03-21",
+    0,
+    0
+   ],
+   [
+    "2026-03-22",
+    0,
+    0
+   ],
+   [
+    "2026-03-23",
+    0,
+    0
+   ],
+   [
+    "2026-03-24",
+    0,
+    0
+   ],
+   [
+    "2026-03-25",
+    0,
+    0
+   ],
+   [
+    "2026-03-26",
+    0,
+    0
+   ],
+   [
+    "2026-03-27",
+    0,
+    0
+   ],
+   [
+    "2026-03-28",
+    0,
+    0
+   ],
+   [
+    "2026-03-29",
+    0,
+    0
+   ],
+   [
+    "2026-03-30",
+    0,
+    0
+   ],
+   [
+    "2026-03-31",
+    0,
+    0
+   ],
+   [
+    "2026-04-01",
+    0,
+    0
+   ],
+   [
+    "2026-04-02",
+    0,
+    0
+   ],
+   [
+    "2026-04-03",
+    0,
+    0
+   ],
+   [
+    "2026-04-04",
+    0,
+    0
+   ],
+   [
+    "2026-04-05",
+    0,
+    0
+   ],
+   [
+    "2026-04-06",
+    0,
+    0
+   ],
+   [
+    "2026-04-07",
+    0,
+    0
+   ],
+   [
+    "2026-04-08",
+    0,
+    0
+   ],
+   [
+    "2026-04-09",
+    0,
+    0
+   ],
+   [
+    "2026-04-10",
+    0,
+    0
+   ],
+   [
+    "2026-04-11",
+    0,
+    0
+   ],
+   [
+    "2026-04-12",
+    0,
+    0
+   ],
+   [
+    "2026-04-13",
+    0,
+    0
+   ],
+   [
+    "2026-04-14",
+    0,
+    0
+   ],
+   [
+    "2026-04-15",
+    0,
+    0
+   ],
+   [
+    "2026-04-16",
+    0,
+    0
+   ],
+   [
+    "2026-04-17",
+    0,
+    0
+   ],
+   [
+    "2026-04-18",
+    0,
+    0
+   ],
+   [
+    "2026-04-19",
+    0,
+    0
+   ],
+   [
+    "2026-04-20",
+    0,
+    0
+   ],
+   [
+    "2026-04-21",
+    0,
+    0
+   ],
+   [
+    "2026-04-22",
+    0,
+    0
+   ],
+   [
+    "2026-04-23",
+    0,
+    0
+   ],
+   [
+    "2026-04-24",
+    0,
+    0
+   ],
+   [
+    "2026-04-25",
+    0,
+    0
+   ],
+   [
+    "2026-04-26",
+    0,
+    0
+   ],
+   [
+    "2026-04-27",
+    0,
+    0
+   ],
+   [
+    "2026-04-28",
+    0,
+    0
+   ],
+   [
+    "2026-04-29",
+    0,
+    0
+   ],
+   [
+    "2026-04-30",
+    0,
+    0
+   ],
+   [
+    "2026-05-01",
+    0,
+    0
+   ],
+   [
+    "2026-05-02",
+    0,
+    0
+   ],
+   [
+    "2026-05-03",
+    0,
+    0
+   ],
+   [
+    "2026-05-04",
+    0,
+    0
+   ],
+   [
+    "2026-05-05",
+    0,
+    0
+   ],
+   [
+    "2026-05-06",
+    0,
+    0
+   ],
+   [
+    "2026-05-07",
+    0,
+    0
+   ],
+   [
+    "2026-05-08",
+    0,
+    0
+   ],
+   [
+    "2026-05-09",
+    0,
+    0
+   ],
+   [
+    "2026-05-10",
+    0,
+    0
+   ],
+   [
+    "2026-05-11",
+    0,
+    0
+   ],
+   [
+    "2026-05-12",
+    0,
+    0
+   ],
+   [
+    "2026-05-13",
+    0,
+    0
+   ],
+   [
+    "2026-05-14",
+    0,
+    0
+   ],
+   [
+    "2026-05-15",
+    0,
+    0
+   ],
+   [
+    "2026-05-16",
+    0,
+    0
+   ],
+   [
+    "2026-05-17",
+    0,
+    0
+   ],
+   [
+    "2026-05-18",
+    0,
+    0
+   ],
+   [
+    "2026-05-19",
+    0,
+    0
+   ],
+   [
+    "2026-05-20",
+    0,
+    0
+   ],
+   [
+    "2026-05-21",
+    0,
+    0
+   ],
+   [
+    "2026-05-22",
+    0,
+    0
+   ],
+   [
+    "2026-05-23",
+    0,
+    0
+   ],
+   [
+    "2026-05-24",
+    0,
+    0
+   ],
+   [
+    "2026-05-25",
+    0,
+    0
+   ],
+   [
+    "2026-05-26",
+    0,
+    0
+   ],
+   [
+    "2026-05-27",
+    0,
+    0
+   ],
+   [
+    "2026-05-28",
+    0,
+    0
+   ],
+   [
+    "2026-05-29",
+    0,
+    0
+   ],
+   [
+    "2026-05-30",
+    0,
+    0
+   ],
+   [
+    "2026-05-31",
+    0,
+    0
+   ],
+   [
+    "2026-06-01",
+    0,
+    0
+   ],
+   [
+    "2026-06-02",
+    0,
+    0
+   ],
+   [
+    "2026-06-03",
+    0,
+    0
+   ],
+   [
+    "2026-06-04",
+    0,
+    0
+   ],
+   [
+    "2026-06-05",
+    0,
+    0
+   ],
+   [
+    "2026-06-06",
+    0,
+    0
+   ],
+   [
+    "2026-06-07",
+    0,
+    0
+   ],
+   [
+    "2026-06-08",
+    0,
+    0
+   ],
+   [
+    "2026-06-09",
+    0,
+    0
+   ],
+   [
+    "2026-06-10",
+    0,
+    0
+   ],
+   [
+    "2026-06-11",
+    0,
+    0
+   ],
+   [
+    "2026-06-12",
+    0,
+    0
+   ],
+   [
+    "2026-06-13",
+    0,
+    0
+   ],
+   [
+    "2026-06-14",
+    0,
+    0
+   ],
+   [
+    "2026-06-15",
+    0,
+    0
+   ],
+   [
+    "2026-06-16",
+    0,
+    0
+   ],
+   [
+    "2026-06-17",
+    0,
+    0
+   ],
+   [
+    "2026-06-18",
+    0,
+    0
+   ],
+   [
+    "2026-06-19",
+    0,
+    0
+   ],
+   [
+    "2026-06-20",
+    0,
+    0
+   ],
+   [
+    "2026-06-21",
+    0,
+    0
+   ],
+   [
+    "2026-06-22",
+    0,
+    0
+   ],
+   [
+    "2026-06-23",
+    0,
+    0
+   ],
+   [
+    "2026-06-24",
+    0,
+    0
+   ],
+   [
+    "2026-06-25",
+    0,
+    0
+   ],
+   [
+    "2026-06-26",
+    0,
+    0
+   ],
+   [
+    "2026-06-27",
+    0,
+    0
+   ],
+   [
+    "2026-06-28",
+    0,
+    0
+   ],
+   [
+    "2026-06-29",
+    0,
+    0
+   ],
+   [
+    "2026-06-30",
+    0,
+    0
+   ],
+   [
+    "2026-07-01",
+    0,
+    0
+   ],
+   [
+    "2026-07-02",
+    0,
+    0
+   ],
+   [
+    "2026-07-03",
+    0,
+    0
+   ],
+   [
+    "2026-07-04",
+    0,
+    0
+   ],
+   [
+    "2026-07-05",
+    0,
+    0
+   ],
+   [
+    "2026-07-06",
+    0,
+    0
+   ],
+   [
+    "2026-07-07",
+    0,
+    0
+   ],
+   [
+    "2026-07-08",
+    0,
+    0
+   ],
+   [
+    "2026-07-09",
+    0,
+    0
+   ],
+   [
+    "2026-07-10",
+    0,
+    0
+   ],
+   [
+    "2026-07-11",
+    0,
+    0
+   ],
+   [
+    "2026-07-12",
+    0,
+    0
+   ],
+   [
+    "2026-07-13",
+    0,
+    0
+   ],
+   [
+    "2026-07-14",
+    0,
+    0
+   ],
+   [
+    "2026-07-15",
+    0,
+    0
+   ],
+   [
+    "2026-07-16",
+    0,
+    0
+   ],
+   [
+    "2026-07-17",
+    0,
+    0
+   ],
+   [
+    "2026-07-18",
+    0,
+    0
+   ],
+   [
+    "2026-07-19",
+    0,
+    0
+   ],
+   [
+    "2026-07-20",
+    0,
+    0
+   ],
+   [
+    "2026-07-21",
+    0,
+    0
+   ],
+   [
+    "2026-07-22",
+    0,
+    0
+   ],
+   [
+    "2026-07-23",
+    0,
+    0
+   ],
+   [
+    "2026-07-24",
+    0,
+    0
+   ],
+   [
+    "2026-07-25",
+    0,
+    0
+   ],
+   [
+    "2026-07-26",
+    0,
+    0
+   ],
+   [
+    "2026-07-27",
+    0,
+    0
+   ],
+   [
+    "2026-07-28",
+    0,
+    0
+   ],
+   [
+    "2026-07-29",
+    0,
+    0
+   ],
+   [
+    "2026-07-30",
+    0,
+    0
+   ],
+   [
+    "2026-07-31",
+    0,
+    0
+   ],
+   [
+    "2026-08-01",
+    0,
+    0
+   ],
+   [
+    "2026-08-02",
+    0,
+    0
+   ],
+   [
+    "2026-08-03",
+    0,
+    0
+   ],
+   [
+    "2026-08-04",
+    0,
+    0
+   ],
+   [
+    "2026-08-05",
+    0,
+    0
+   ],
+   [
+    "2026-08-06",
+    1,
+    1
+   ],
+   [
+    "2026-08-07",
+    0,
+    0
+   ],
+   [
+    "2026-08-08",
+    0,
+    0
+   ],
+   [
+    "2026-08-09",
+    0,
+    0
+   ],
+   [
+    "2026-08-10",
+    0,
+    0
+   ],
+   [
+    "2026-08-11",
+    0,
+    0
+   ],
+   [
+    "2026-08-12",
+    0,
+    0
+   ],
+   [
+    "2026-08-13",
+    0,
+    0
+   ],
+   [
+    "2026-08-14",
+    0,
+    0
+   ],
+   [
+    "2026-08-15",
+    5,
+    3
+   ],
+   [
+    "2026-08-16",
+    2,
+    1
+   ],
+   [
+    "2026-08-17",
+    1,
+    1
+   ],
+   [
+    "2026-08-18",
+    0,
+    0
+   ],
+   [
+    "2026-08-19",
+    0,
+    0
+   ],
+   [
+    "2026-08-20",
+    2,
+    1
+   ],
+   [
+    "2026-08-21",
+    0,
+    0
+   ],
+   [
+    "2026-08-22",
+    0,
+    0
+   ],
+   [
+    "2026-08-23",
+    0,
+    0
+   ],
+   [
+    "2026-08-24",
+    0,
+    0
+   ],
+   [
+    "2026-08-25",
+    0,
+    0
+   ],
+   [
+    "2026-08-26",
+    9,
+    4
+   ],
+   [
+    "2026-08-27",
+    0,
+    0
+   ],
+   [
+    "2026-08-28",
+    0,
+    0
+   ],
+   [
+    "2026-08-29",
+    0,
+    0
+   ],
+   [
+    "2026-08-30",
+    0,
+    0
+   ],
+   [
+    "2026-08-31",
+    0,
+    0
+   ],
+   [
+    "2026-09-01",
+    0,
+    0
+   ],
+   [
+    "2026-09-02",
+    0,
+    0
+   ],
+   [
+    "2026-09-03",
+    0,
+    0
+   ],
+   [
+    "2026-09-04",
+    1,
+    1
+   ],
+   [
+    "2026-09-05",
+    1,
+    1
+   ],
+   [
+    "2026-09-06",
+    0,
+    0
+   ],
+   [
+    "2026-09-07",
+    0,
+    0
+   ],
+   [
+    "2026-09-08",
+    0,
+    0
+   ],
+   [
+    "2026-09-09",
+    0,
+    0
+   ],
+   [
+    "2026-09-10",
+    0,
+    0
+   ],
+   [
+    "2026-09-11",
+    0,
+    0
+   ],
+   [
+    "2026-09-12",
+    0,
+    0
+   ],
+   [
+    "2026-09-13",
+    0,
+    0
+   ],
+   [
+    "2026-09-14",
+    0,
+    0
+   ],
+   [
+    "2026-09-15",
+    0,
+    0
+   ],
+   [
+    "2026-09-16",
+    0,
+    0
+   ],
+   [
+    "2026-09-17",
+    0,
+    0
+   ],
+   [
+    "2026-09-18",
+    0,
+    0
+   ],
+   [
+    "2026-09-19",
+    0,
+    0
+   ],
+   [
+    "2026-09-20",
+    0,
+    0
+   ],
+   [
+    "2026-09-21",
+    0,
+    0
+   ],
+   [
+    "2026-09-22",
+    0,
+    0
+   ],
+   [
+    "2026-09-23",
+    0,
+    0
+   ],
+   [
+    "2026-09-24",
+    0,
+    0
+   ],
+   [
+    "2026-09-25",
+    0,
+    0
+   ],
+   [
+    "2026-09-26",
+    0,
+    0
+   ],
+   [
+    "2026-09-27",
+    0,
+    0
+   ],
+   [
+    "2026-09-28",
+    0,
+    0
+   ],
+   [
+    "2026-09-29",
+    0,
+    0
+   ],
+   [
+    "2026-09-30",
+    0,
+    0
+   ],
+   [
+    "2026-10-01",
+    0,
+    0
+   ],
+   [
+    "2026-10-02",
+    0,
+    0
+   ],
+   [
+    "2026-10-03",
+    0,
+    0
+   ],
+   [
+    "2026-10-04",
+    0,
+    0
+   ],
+   [
+    "2026-10-05",
+    0,
+    0
+   ],
+   [
+    "2026-10-06",
+    0,
+    0
+   ],
+   [
+    "2026-10-07",
+    0,
+    0
+   ],
+   [
+    "2026-10-08",
+    0,
+    0
+   ],
+   [
+    "2026-10-09",
+    0,
+    0
+   ],
+   [
+    "2026-10-10",
+    1,
+    1
+   ],
+   [
+    "2026-10-11",
+    0,
+    0
+   ],
+   [
+    "2026-10-12",
+    0,
+    0
+   ],
+   [
+    "2026-10-13",
+    0,
+    0
+   ],
+   [
+    "2026-10-14",
+    0,
+    0
+   ],
+   [
+    "2026-10-15",
+    0,
+    0
+   ],
+   [
+    "2026-10-16",
+    0,
+    0
+   ],
+   [
+    "2026-10-17",
+    0,
+    0
+   ],
+   [
+    "2026-10-18",
+    0,
+    0
+   ],
+   [
+    "2026-10-19",
+    0,
+    0
+   ],
+   [
+    "2026-10-20",
+    1,
+    1
+   ],
+   [
+    "2026-10-21",
+    0,
+    0
+   ],
+   [
+    "2026-10-22",
+    0,
+    0
+   ],
+   [
+    "2026-10-23",
+    0,
+    0
+   ],
+   [
+    "2026-10-24",
+    0,
+    0
+   ],
+   [
+    "2026-10-25",
+    0,
+    0
+   ],
+   [
+    "2026-10-26",
+    0,
+    0
+   ],
+   [
+    "2026-10-27",
+    0,
+    0
+   ],
+   [
+    "2026-10-28",
+    2,
+    1
+   ],
+   [
+    "2026-10-29",
+    0,
+    0
+   ],
+   [
+    "2026-10-30",
+    0,
+    0
+   ],
+   [
+    "2026-10-31",
+    0,
+    0
+   ],
+   [
+    "2026-11-01",
+    0,
+    0
+   ],
+   [
+    "2026-11-02",
+    0,
+    0
+   ],
+   [
+    "2026-11-03",
+    0,
+    0
+   ],
+   [
+    "2026-11-04",
+    0,
+    0
+   ],
+   [
+    "2026-11-05",
+    0,
+    0
+   ],
+   [
+    "2026-11-06",
+    0,
+    0
+   ],
+   [
+    "2026-11-07",
+    0,
+    0
+   ],
+   [
+    "2026-11-08",
+    1,
+    1
+   ],
+   [
+    "2026-11-09",
+    0,
+    0
+   ],
+   [
+    "2026-11-10",
+    0,
+    0
+   ],
+   [
+    "2026-11-11",
+    0,
+    0
+   ],
+   [
+    "2026-11-12",
+    0,
+    0
+   ],
+   [
+    "2026-11-13",
+    0,
+    0
+   ],
+   [
+    "2026-11-14",
+    2,
+    1
+   ],
+   [
+    "2026-11-15",
+    0,
+    0
+   ],
+   [
+    "2026-11-16",
+    0,
+    0
+   ],
+   [
+    "2026-11-17",
+    0,
+    0
+   ],
+   [
+    "2026-11-18",
+    0,
+    0
+   ]
+  ],
+  "stats": {
+   "total": 29,
+   "activeDays": 13,
+   "busiest": {
+    "date": "2026-08-26",
+    "count": 9
+   },
+   "longestStreak": {
+    "length": 3,
+    "from": "2026-08-15",
+    "to": "2026-08-17"
+   },
+   "firstActive": "2026-08-06",
+   "lastActive": "2026-11-14",
+   "genesis": "2026-08-06",
+   "ageDays": 104,
+   "daysSinceGenesis": 105
+  },
+  "attribution": [
+   {
+    "date": "2026-08-06",
+    "count": 1,
+    "parts": [],
+    "unattributed": 1
+   },
+   {
+    "date": "2026-08-15",
+    "count": 5,
+    "parts": [
+     {
+      "repo": "rajat00-star",
+      "kind": "commit",
+      "count": 4
+     },
+     {
+      "repo": "rajat00-star",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-08-16",
+    "count": 2,
+    "parts": [],
+    "unattributed": 2
+   },
+   {
+    "date": "2026-08-17",
+    "count": 1,
+    "parts": [
+     {
+      "repo": "CodeForge",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-08-20",
+    "count": 2,
+    "parts": [
+     {
+      "repo": "Hand-Tracking-Using-OpenCV",
+      "kind": "commit",
+      "count": 1
+     },
+     {
+      "repo": "Hand-Tracking-Using-OpenCV",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-08-26",
+    "count": 9,
+    "parts": [
+     {
+      "repo": "rajat00-star",
+      "kind": "commit",
+      "count": 9
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-09-04",
+    "count": 1,
+    "parts": [
+     {
+      "repo": "Leetcode",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-09-05",
+    "count": 1,
+    "parts": [
+     {
+      "repo": "pramaan",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-10-10",
+    "count": 1,
+    "parts": [],
+    "unattributed": 1
+   },
+   {
+    "date": "2026-10-20",
+    "count": 1,
+    "parts": [
+     {
+      "repo": "SafeCircle",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-10-28",
+    "count": 2,
+    "parts": [
+     {
+      "repo": "OmniPilot",
+      "kind": "commit",
+      "count": 1
+     },
+     {
+      "repo": "OmniPilot",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
+   },
+   {
+    "date": "2026-11-08",
+    "count": 1,
+    "parts": [],
+    "unattributed": 1
+   },
+   {
+    "date": "2026-11-14",
+    "count": 2,
+    "parts": [],
+    "unattributed": 2
+   }
+  ],
+  "restricted": 6
+ },
+ "tech": {
+  "classes": {
+   "language": "Language",
+   "framework": "Framework",
+   "infrastructure": "Infrastructure",
+   "ai": "AI / ML"
+  },
+  "nodes": [
+   {
+    "id": "lang-typescript",
+    "label": "TypeScript",
+    "class": "language",
+    "bytes": 1049205,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "pramaan",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-python",
+    "label": "Python",
+    "class": "language",
+    "bytes": 1070545,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "pramaan",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-javascript",
+    "label": "JavaScript",
+    "class": "language",
+    "bytes": 289342,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-css",
+    "label": "CSS",
+    "class": "language",
+    "bytes": 174704,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-html",
+    "label": "HTML",
+    "class": "language",
+    "bytes": 44412,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "pramaan",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-cpp",
+    "label": "C++",
+    "class": "language",
+    "bytes": 4804,
+    "repos": [
+     "CodeForge",
+     "Leetcode"
+    ],
+    "evidence": [
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "Leetcode",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-mako",
+    "label": "Mako",
+    "class": "language",
+    "bytes": 1408,
+    "repos": [
+     "SafeCircle",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-shell",
+    "label": "Shell",
+    "class": "language",
+    "bytes": 450,
+    "repos": [
+     "SafeCircle",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-makefile",
+    "label": "Makefile",
+    "class": "language",
+    "bytes": 1977,
+    "repos": [
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "react",
+    "label": "React",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "frontend/package.json"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     },
+     {
+      "repo": "pramaan",
+      "path": "frontend/mobile/package.json"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/web/package.json"
+     }
+    ]
+   },
+   {
+    "id": "fastapi",
+    "label": "FastAPI",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "httpx",
+    "label": "HTTPX",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements-dev.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "pydantic",
+    "label": "Pydantic",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "pytest",
+    "label": "Pytest",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements-dev.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/pytest.ini"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "sqlalchemy",
+    "label": "SQLAlchemy",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "alembic",
+    "label": "Alembic",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/alembic.ini"
+     },
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/alembic.ini"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "nextjs",
+    "label": "Next.js",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "frontend/package.json"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/web/package.json"
+     }
+    ]
+   },
+   {
+    "id": "playwright",
+    "label": "Playwright",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "e2e/package.json"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "threejs",
+    "label": "Three.js",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "frontend/package.json"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "expo",
+    "label": "Expo",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "pramaan",
+      "path": "frontend/mobile/package.json"
+     }
+    ]
+   },
+   {
+    "id": "express",
+    "label": "Express",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "jest",
+    "label": "Jest",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "pramaan",
+      "path": "frontend/mobile/package.json"
+     }
+    ]
+   },
+   {
+    "id": "monaco",
+    "label": "Monaco Editor",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "CodeForge",
+      "path": "apps/web/package.json"
+     }
+    ]
+   },
+   {
+    "id": "motion",
+    "label": "Motion",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "react-native",
+    "label": "React Native",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "pramaan",
+      "path": "frontend/mobile/package.json"
+     }
+    ]
+   },
+   {
+    "id": "tailwind",
+    "label": "Tailwind CSS",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "CodeForge",
+      "path": "apps/web/package.json"
+     }
+    ]
+   },
+   {
+    "id": "vite",
+    "label": "Vite",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "vitest",
+    "label": "Vitest",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "zod",
+    "label": "Zod",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "docker",
+    "label": "Docker",
+    "class": "infrastructure",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "Dockerfile"
+     },
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "SafeCircle",
+      "path": "docker-compose.yml"
+     },
+     {
+      "repo": "pramaan",
+      "path": "Dockerfile"
+     },
+     {
+      "repo": "pramaan",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "pramaan",
+      "path": "docker-compose.yml"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/Dockerfile"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "docker-compose.yml"
+     }
+    ]
+   },
+   {
+    "id": "github-actions",
+    "label": "GitHub Actions",
+    "class": "infrastructure",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "rajat00-star"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": ".github/workflows/ci.yml"
+     },
+     {
+      "repo": "pramaan",
+      "path": ".github/workflows/ci.yml"
+     },
+     {
+      "repo": "rajat00-star",
+      "path": ".github/workflows/snake.yml"
+     }
+    ]
+   },
+   {
+    "id": "postgresql",
+    "label": "PostgreSQL",
+    "class": "infrastructure",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "pramaan",
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "chrome-mv3",
+    "label": "Chrome MV3",
+    "class": "infrastructure",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "extension/manifest.json"
+     }
+    ]
+   },
+   {
+    "id": "redis",
+    "label": "Redis",
+    "class": "infrastructure",
+    "bytes": 0,
+    "repos": [
+     "CodeForge"
+    ],
+    "evidence": [
+     {
+      "repo": "CodeForge",
+      "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "anthropic",
+    "label": "Anthropic SDK",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements-ai.txt"
+     },
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements-dev.txt"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
+    "id": "numpy",
+    "label": "NumPy",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "opencv",
+    "label": "OpenCV",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "scikit-learn",
+    "label": "scikit-learn",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "scipy",
+    "label": "SciPy",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "backend/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "tesseract",
+    "label": "Tesseract OCR",
+    "class": "ai",
+    "bytes": 0,
+    "repos": [
+     "pramaan"
+    ],
+    "evidence": [
+     {
+      "repo": "pramaan",
+      "path": "backend/requirements.txt"
+     }
+    ]
+   }
+  ],
+  "edges": [
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-python",
+    "weight": 0.3877
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-typescript",
+    "weight": 0.2781
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-javascript",
+    "weight": 0.237
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-css",
+    "weight": 0.0857
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-html",
+    "weight": 0.0095
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-mako",
+    "weight": 0.0006
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "lang-shell",
+    "weight": 0.0003
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "alembic",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "anthropic",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "chrome-mv3",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "docker",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "fastapi",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "github-actions",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "httpx",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "nextjs",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "numpy",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "playwright",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "postgresql",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "pydantic",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "pytest",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "react",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "scikit-learn",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "scipy",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "sqlalchemy",
+    "weight": 1
+   },
+   {
+    "repo": "SafeCircle",
+    "tech": "threejs",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "lang-typescript",
+    "weight": 0.8569
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "lang-css",
+    "weight": 0.1191
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "lang-javascript",
+    "weight": 0.0222
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "lang-html",
+    "weight": 0.0018
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "anthropic",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "express",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "motion",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "playwright",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "react",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "threejs",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "vite",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "vitest",
+    "weight": 1
+   },
+   {
+    "repo": "OmniPilot",
+    "tech": "zod",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "lang-python",
+    "weight": 0.5545
+   },
+   {
+    "repo": "pramaan",
+    "tech": "lang-typescript",
+    "weight": 0.3371
+   },
+   {
+    "repo": "pramaan",
+    "tech": "lang-html",
+    "weight": 0.105
+   },
+   {
+    "repo": "pramaan",
+    "tech": "docker",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "expo",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "fastapi",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "github-actions",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "httpx",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "jest",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "opencv",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "postgresql",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "pydantic",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "pytest",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "react",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "react-native",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "sqlalchemy",
+    "weight": 1
+   },
+   {
+    "repo": "pramaan",
+    "tech": "tesseract",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-python",
+    "weight": 0.8156
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-typescript",
+    "weight": 0.1552
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-javascript",
+    "weight": 0.0091
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-cpp",
+    "weight": 0.0079
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-makefile",
+    "weight": 0.0035
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-css",
+    "weight": 0.0032
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-mako",
+    "weight": 0.0013
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "lang-shell",
+    "weight": 0.0002
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "alembic",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "docker",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "fastapi",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "httpx",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "monaco",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "nextjs",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "postgresql",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "pydantic",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "pytest",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "react",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "redis",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "sqlalchemy",
+    "weight": 1
+   },
+   {
+    "repo": "CodeForge",
+    "tech": "tailwind",
+    "weight": 1
+   },
+   {
+    "repo": "rajat00-star",
+    "tech": "github-actions",
+    "weight": 1
+   },
+   {
+    "repo": "Leetcode",
+    "tech": "lang-cpp",
+    "weight": 1
+   }
+  ]
+ },
+ "activity": [
+  {
+   "at": "2026-11-18T06:48:21Z",
+   "repo": "rajat00-star",
+   "kind": "pushed",
+   "text": "latest push to main",
+   "source": "repository"
+  },
+  {
+   "at": "2026-10-29T08:15:42Z",
+   "repo": "OmniPilot",
+   "kind": "pushed",
+   "text": "latest push to main",
+   "source": "repository"
+  },
+  {
+   "at": "2026-10-28T15:25:49Z",
+   "repo": "OmniPilot",
+   "kind": "PublicEvent",
+   "text": "made the repository public",
+   "source": "event"
+  },
+  {
+   "at": "2026-10-20T06:19:54Z",
+   "repo": "SafeCircle",
+   "kind": "CreateEvent",
+   "text": "created branch presentation",
+   "source": "event"
+  },
+  {
+   "at": "2026-10-20T06:07:16Z",
+   "repo": "SafeCircle",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
+  {
+   "at": "2026-09-05T08:44:08Z",
+   "repo": "pramaan",
+   "kind": "pushed",
+   "text": "latest push to main",
+   "source": "repository"
+  },
+  {
+   "at": "2026-09-05T06:28:11Z",
+   "repo": "pramaan",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
+  {
+   "at": "2026-09-04T06:02:34Z",
+   "repo": "Leetcode",
+   "kind": "pushed",
+   "text": "latest push to main",
+   "source": "repository"
+  },
+  {
+   "at": "2026-09-04T05:45:18Z",
+   "repo": "Leetcode",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
+  {
+   "at": "2026-08-20T07:40:56Z",
+   "repo": "Hand-Tracking-Using-OpenCV",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
+  {
+   "at": "2026-08-17T04:49:04Z",
+   "repo": "CodeForge",
+   "kind": "pushed",
+   "text": "latest push to master",
+   "source": "repository"
+  },
+  {
+   "at": "2026-08-17T04:33:30Z",
+   "repo": "CodeForge",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
+  {
+   "at": "2026-08-15T14:15:29Z",
+   "repo": "rajat00-star",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  }
+ ]
+}

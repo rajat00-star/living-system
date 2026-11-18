@@ -1,0 +1,440 @@
+/* Figures. Two layouts share one document:
+   - with 3D (html.has-3d), each figure pins a full-viewport stage while the scene moves
+     behind it, on native scroll;
+   - without it, the same content flows as a long-form page with still plates. */
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* With 3D, empty parts of the page let the pointer through to the scene; only the text
+   blocks and controls inside each stage take it. */
+.has-3d main,
+.has-3d .fig,
+.has-3d .fig__stage {
+  pointer-events: none;
+}
+
+.has-3d .fig__stage > * {
+  pointer-events: auto;
+}
+
+.fig {
+  position: relative;
+}
+
+.fig__stage {
+  position: relative;
+  padding: calc(var(--masthead) + 48px) calc(var(--gutter) + var(--rail)) 72px var(--gutter);
+}
+
+.fig + .fig .fig__stage {
+  border-top: 1px solid var(--line);
+}
+
+.has-3d .fig + .fig .fig__stage {
+  border-top: 0;
+}
+
+.plate img,
+.plate svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------------------------------------------------------------- 3D, desktop */
+@media (min-width: 760px) {
+  .has-3d .fig {
+    height: 230vh;
+  }
+  .has-3d .fig--specimens {
+    height: 300vh;
+  }
+  .has-3d .fig--genome {
+    height: 340vh;
+  }
+  .has-3d .fig--network {
+    height: 240vh;
+  }
+  .has-3d .fig--vitals {
+    height: auto;
+  }
+
+  .has-3d .fig__stage {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    height: 100svh;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    row-gap: 22px;
+    padding: calc(var(--masthead) + 24px) calc(var(--gutter) + var(--rail)) 36px var(--gutter);
+    pointer-events: none;
+  }
+
+  .has-3d .fig__stage > * {
+    pointer-events: auto;
+    min-width: 0;
+  }
+
+  .has-3d .fig--vitals .fig__stage {
+    position: relative;
+    height: auto;
+    min-height: 100svh;
+  }
+
+  /* FIG. 01 */
+  /* The hero and the legend each span the whole stage height, so neither one's size
+     can push the other off screen. */
+  .has-3d .fig--core .fig__stage {
+    grid-template-rows: auto minmax(0, 1fr) auto;
+  }
+  .has-3d .hero {
+    grid-column: 1 / 8;
+    grid-row: 1 / 4;
+    align-self: end;
+  }
+  .has-3d .legend {
+    grid-column: 10 / 13;
+    grid-row: 1 / 3;
+    align-self: start;
+  }
+  .has-3d .cue {
+    grid-column: 10 / 13;
+    grid-row: 3;
+    justify-self: end;
+    align-self: end;
+  }
+  .has-3d .plate--core {
+    grid-area: 1 / 4 / 4 / 13;
+    place-self: center;
+    width: min(64vw, 100vh, 900px);
+    pointer-events: none;
+    transition: opacity 1.6s var(--ease);
+  }
+  .scene-ready .plate--core {
+    opacity: 0;
+  }
+
+  /* FIG. 02 */
+  .has-3d .fig--specimens .fig__stage {
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      'head head head head . . . . plates plates plates plates'
+      'index index index . . . . . plates plates plates plates';
+  }
+  .has-3d .fig--specimens .fig__head {
+    grid-area: head;
+  }
+  .has-3d .index {
+    grid-area: index;
+    align-self: end;
+  }
+  .has-3d .plates {
+    grid-area: plates;
+  }
+
+  /* FIG. 03 */
+  .has-3d .fig--genome .fig__stage {
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      'head head head head head . . . . days days days'
+      'read read read read read read . . . days days days'
+      'phases phases phases . . . . . . days days days'
+      'snake snake snake snake . . . . . days days days';
+  }
+  .has-3d .fig--genome .fig__head {
+    grid-area: head;
+  }
+  .has-3d .readout--genome {
+    grid-area: read;
+  }
+  .has-3d .phases {
+    grid-area: phases;
+    align-self: start;
+  }
+  .has-3d .snake {
+    grid-area: snake;
+  }
+  .has-3d .days {
+    grid-area: days;
+    align-self: start;
+    max-height: 100%;
+    overflow: auto;
+  }
+  .has-3d .plate--genome {
+    display: none;
+  }
+
+  /* FIG. 04 */
+  .has-3d .fig--network .fig__stage {
+    grid-template-rows: auto auto minmax(0, 1fr);
+    grid-template-areas:
+      'head head head head head . . . . detail detail detail'
+      'filters filters filters filters filters filters filters . . detail detail detail'
+      'list list list list . . . . . detail detail detail';
+  }
+  .has-3d .fig--network .fig__head {
+    grid-area: head;
+  }
+  .has-3d .filters {
+    grid-area: filters;
+  }
+  .has-3d .techlist {
+    grid-area: list;
+    overflow: auto;
+    align-self: stretch;
+  }
+  .has-3d .tech-detail {
+    grid-area: detail;
+    align-self: start;
+  }
+
+  /* FIG. 05 */
+  .has-3d .fig--vitals .fig__stage {
+    grid-template-areas:
+      'head head head head head head head live live live live live'
+      'vitals vitals vitals vitals vitals vitals vitals vitals vitals vitals vitals vitals'
+      'lower lower lower lower lower lower lower lower lower lower lower lower'
+      'prov prov prov prov prov prov prov . . . . .';
+    align-content: start;
+    background: linear-gradient(to bottom, rgba(3, 4, 5, 0) 0, rgba(3, 4, 5, 0.72) 30%, rgba(3, 4, 5, 0.86) 100%);
+  }
+  .has-3d .fig--vitals .fig__head {
+    grid-area: head;
+  }
+  .has-3d .live {
+    grid-area: live;
+    align-self: end;
+    justify-self: end;
+    text-align: right;
+  }
+  .has-3d .vitals {
+    grid-area: vitals;
+  }
+  .has-3d .vitals__lower {
+    grid-area: lower;
+  }
+  .has-3d .provenance {
+    grid-area: prov;
+  }
+}
+
+/* ---------------------------------------------------------------- 3D, phones
+   Stages flow; the scene stays fixed behind, and text sits on dark ground. */
+@media (max-width: 759px) {
+  .has-3d .fig__stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 22px;
+    min-height: 100svh;
+    padding: 46svh 16px 40px;
+  }
+  .has-3d .fig--core .fig__stage {
+    padding-top: 52svh;
+  }
+  .has-3d .fig__stage > :not(.plate) {
+    position: relative;
+  }
+  .has-3d .fig__stage > :not(.plate)::before {
+    content: '';
+    position: absolute;
+    inset: -14px -16px;
+    z-index: -1;
+    background: rgba(3, 4, 5, 0.82);
+  }
+  .has-3d .plate--core {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: opacity 1.6s var(--ease);
+  }
+  .scene-ready .plate--core {
+    opacity: 0;
+  }
+  .has-3d .plate--genome,
+  .has-3d .cue,
+  .has-3d .legend .key,
+  .has-3d .legend .caption {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------- without 3D */
+html:not(.has-3d) .when-3d {
+  display: none;
+}
+
+html:not(.has-3d) .fig__stage {
+  display: grid;
+  gap: 28px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  html:not(.has-3d) .fig--core .fig__stage {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    grid-template-areas:
+      'hero plate'
+      'legend plate'
+      'cue cue';
+    align-items: center;
+  }
+  html:not(.has-3d) .hero {
+    grid-area: hero;
+  }
+  html:not(.has-3d) .plate--core {
+    grid-area: plate;
+  }
+  html:not(.has-3d) .legend {
+    grid-area: legend;
+  }
+  html:not(.has-3d) .cue {
+    grid-area: cue;
+  }
+}
+
+/* Shared figure head and FIG. 01 parts */
+.kicker {
+  margin-bottom: 18px;
+  font: 500 11px/1 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.kicker__mark {
+  color: var(--cyan);
+}
+
+.hero .lede {
+  margin-top: 26px;
+}
+
+.readout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 34px;
+  margin-top: 30px;
+}
+
+.readout__item {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4px;
+}
+
+.readout dt {
+  font: 500 10.5px/1.2 var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+
+.readout dd {
+  font: 400 clamp(26px, 2.3vw, 36px) / 1 var(--serif);
+  color: var(--bone);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.legend {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+  max-width: 340px;
+  justify-self: end;
+}
+
+.tori {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+
+.tori__item {
+  display: grid;
+  grid-template-columns: 3.2em 1fr auto;
+  align-items: baseline;
+  width: 100%;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  font: 400 12px/1.3 var(--mono);
+  color: var(--bone-2);
+  transition: color 0.2s;
+}
+
+.tori__k {
+  color: var(--mute);
+}
+
+.tori__n {
+  color: var(--mute);
+  font-variant-numeric: tabular-nums;
+}
+
+.tori__item:hover,
+.tori__item:focus-visible,
+.tori__item[aria-pressed='true'] {
+  color: var(--bone);
+}
+
+.tori__item[aria-pressed='true'] .tori__k {
+  color: var(--red);
+}
+
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font: 400 10.5px/1.5 var(--mono);
+  color: var(--mute);
+}
+
+.key__item::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 1px;
+  margin-right: 7px;
+  vertical-align: middle;
+  background: var(--k);
+}
+
+.key__item--0 {
+  --k: var(--bone);
+}
+.key__item--1 {
+  --k: var(--cyan);
+}
+.key__item--2 {
+  --k: var(--mute);
+}
+.key__item--3 {
+  --k: var(--faint);
+}
+
+.caption {
+  font: 400 11px/1.55 var(--mono);
+  color: var(--mute);
+  max-width: 44ch;
+}
+
+.cue {
+  display: inline-block;
+  padding: 7px 0;
+  font: 500 10.5px/1 var(--mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mute);
+  text-decoration: none;
+}
+
+.cue:hover {
+  color: var(--cyan);
+}

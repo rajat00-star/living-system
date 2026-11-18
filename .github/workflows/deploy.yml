@@ -1,0 +1,83 @@
+# Reads the GitHub API, builds the Living System and publishes it to GitHub Pages.
+#
+# Every six hours the data is read again, so the site and the README plates it serves stay
+# current. The only credential is the token GitHub issues to this run; it can read public
+# data and write to this repository, and it never reaches the built site.
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 26
+          cache: npm
+
+      - run: npm ci
+
+      # Keeps the last good snapshot if GitHub cannot be read, so a deploy never ships empty.
+      - name: Read GitHub
+        run: node pipeline/run.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      # Builds, then fails on token patterns, placeholders, broken references or size over budget.
+      - name: Build and check
+        run: npm run check
+
+      # The committed snapshot is the fallback for a failed read, and a commit keeps this
+      # schedule alive (GitHub pauses schedules in repositories with no activity for 60 days).
+      # Only real changes are committed: timestamps alone are not.
+      - name: Keep the snapshot when the data changed
+        run: |
+          if git cat-file -e HEAD:data/snapshot.json 2>/dev/null; then
+            git show HEAD:data/snapshot.json > /tmp/previous.json
+            if node -e "const strip=(o)=>{delete o.generatedAt;delete o.source;return JSON.stringify(o)};const a=require('/tmp/previous.json');const b=require('./data/snapshot.json');process.exit(strip(a)===strip(b)?0:1)"; then
+              echo "Data unchanged; nothing to commit."
+              exit 0
+            fi
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data public/readme public/plates
+          git commit -m "Refresh snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
