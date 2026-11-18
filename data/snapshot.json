@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-18T15:08:08.821Z",
+ "generatedAt": "2026-11-18T15:25:08.942Z",
  "source": {
   "authenticated": true,
   "calendar": "public-page",
-  "requests": 44,
-  "notModified": 41
+  "requests": 48,
+  "notModified": 0
  },
  "profile": {
   "login": "rajat00-star",
@@ -14,7 +14,7 @@
   "location": "Delhi",
   "url": "https://github.com/rajat00-star",
   "createdAt": "2026-08-06T10:19:00Z",
-  "publicRepos": 7,
+  "publicRepos": 8,
   "followers": 2,
   "following": 0
  },
@@ -30,19 +30,19 @@
   "site": "https://rajat00-star.github.io/living-system/"
  },
  "totals": {
-  "repos": 7,
-  "files": 1085,
-  "directories": 279,
-  "bytes": 2641407,
-  "languages": 10,
-  "technologies": 40,
+  "repos": 8,
+  "files": 1184,
+  "directories": 299,
+  "bytes": 3008264,
+  "languages": 11,
+  "technologies": 41,
   "stars": 0,
   "forks": 0,
   "openIssues": 0,
-  "commits": 91,
+  "commits": 92,
   "followers": 2,
-  "contributions": 29,
-  "activeDays": 13,
+  "contributions": 31,
+  "activeDays": 14,
   "ageDays": 104
  },
  "languages": [
@@ -54,7 +54,7 @@
     "pramaan",
     "CodeForge"
    ],
-   "share": 0.4053
+   "share": 0.3559
   },
   {
    "name": "TypeScript",
@@ -65,37 +65,48 @@
     "pramaan",
     "CodeForge"
    ],
-   "share": 0.3972
+   "share": 0.3488
   },
   {
    "name": "JavaScript",
-   "bytes": 289342,
+   "bytes": 611511,
    "repos": [
     "SafeCircle",
     "OmniPilot",
-    "CodeForge"
+    "CodeForge",
+    "living-system"
    ],
-   "share": 0.1095
+   "share": 0.2033
   },
   {
    "name": "CSS",
-   "bytes": 174704,
+   "bytes": 208599,
    "repos": [
     "SafeCircle",
     "OmniPilot",
-    "CodeForge"
+    "CodeForge",
+    "living-system"
    ],
-   "share": 0.0661
+   "share": 0.0693
   },
   {
    "name": "HTML",
-   "bytes": 44412,
+   "bytes": 44710,
    "repos": [
     "SafeCircle",
     "OmniPilot",
-    "pramaan"
+    "pramaan",
+    "living-system"
    ],
-   "share": 0.0168
+   "share": 0.0149
+  },
+  {
+   "name": "GLSL",
+   "bytes": 10495,
+   "repos": [
+    "living-system"
+   ],
+   "share": 0.0035
   },
   {
    "name": "C++",
@@ -104,7 +115,7 @@
     "CodeForge",
     "Leetcode"
    ],
-   "share": 0.0018
+   "share": 0.0016
   },
   {
    "name": "Dockerfile",
@@ -114,7 +125,7 @@
     "pramaan",
     "CodeForge"
    ],
-   "share": 0.0017
+   "share": 0.0015
   },
   {
    "name": "Makefile",
@@ -140,7 +151,7 @@
     "SafeCircle",
     "CodeForge"
    ],
-   "share": 0.0002
+   "share": 0.0001
   }
  ],
  "repos": [
@@ -1625,6 +1636,201 @@
    "contributions": 1
   },
   {
+   "id": "living-system",
+   "name": "living-system",
+   "displayName": "living-system",
+   "featured": false,
+   "visibility": "public",
+   "url": "https://github.com/rajat00-star/living-system",
+   "description": "GITHUB // THE LIVING SYSTEM: a public GitHub as an interactive 3D computational organism, drawn from the GitHub API.",
+   "homepage": "https://rajat00-star.github.io/living-system/",
+   "license": null,
+   "defaultBranch": "main",
+   "createdAt": "2026-11-18T15:24:28Z",
+   "pushedAt": "2026-11-18T15:24:49Z",
+   "stars": 0,
+   "forks": 0,
+   "openIssues": 0,
+   "sizeKb": 0,
+   "topics": [],
+   "primaryLanguage": "JavaScript",
+   "languages": [
+    {
+     "name": "JavaScript",
+     "bytes": 322169,
+     "share": 0.8782
+    },
+    {
+     "name": "CSS",
+     "bytes": 33895,
+     "share": 0.0924
+    },
+    {
+     "name": "GLSL",
+     "bytes": 10495,
+     "share": 0.0286
+    },
+    {
+     "name": "HTML",
+     "bytes": 298,
+     "share": 0.0008
+    }
+   ],
+   "bytes": 366857,
+   "commits": {
+    "count": 1,
+    "head": {
+     "sha": "b03ec7af24b4e8a2a28ebf7a0c25ede720ff1e92",
+     "message": "Build GITHUB // THE LIVING SYSTEM",
+     "date": "2026-11-18T15:24:44Z",
+     "url": "https://github.com/rajat00-star/living-system/commit/b03ec7af24b4e8a2a28ebf7a0c25ede720ff1e92"
+    }
+   },
+   "morphology": {
+    "files": 99,
+    "directories": 20,
+    "maxDepth": 3,
+    "classes": {
+     "source": 68,
+     "docs": 2,
+     "config": 7,
+     "other": 22
+    },
+    "topLevel": [
+     {
+      "name": "src",
+      "type": "dir",
+      "files": 48
+     },
+     {
+      "name": "public",
+      "type": "dir",
+      "files": 22
+     },
+     {
+      "name": "pipeline",
+      "type": "dir",
+      "files": 12
+     },
+     {
+      "name": "scripts",
+      "type": "dir",
+      "files": 5
+     },
+     {
+      "name": "content",
+      "type": "dir",
+      "files": 2
+     },
+     {
+      "name": "data",
+      "type": "dir",
+      "files": 2
+     },
+     {
+      "name": ".claude",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".github",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": "docs",
+      "type": "dir",
+      "files": 1
+     },
+     {
+      "name": ".gitignore",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "index.html",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "package-lock.json",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "package.json",
+      "type": "file",
+      "files": 1
+     },
+     {
+      "name": "README.md",
+      "type": "file",
+      "files": 1
+     }
+    ]
+   },
+   "manifests": [
+    {
+     "path": "package.json",
+     "kind": "npm",
+     "dependencies": [
+      "@fontsource/ibm-plex-mono",
+      "@fontsource/instrument-serif",
+      "@react-three/fiber",
+      "@react-three/postprocessing",
+      "d3-force-3d",
+      "postprocessing",
+      "react",
+      "react-dom",
+      "three"
+     ],
+     "devDependencies": [
+      "esbuild",
+      "opentype.js",
+      "playwright-core",
+      "zod"
+     ]
+    }
+   ],
+   "tech": [
+    {
+     "id": "github-actions",
+     "evidence": [
+      ".github/workflows/deploy.yml"
+     ]
+    },
+    {
+     "id": "playwright",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "react",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "threejs",
+     "evidence": [
+      "package.json"
+     ]
+    },
+    {
+     "id": "zod",
+     "evidence": [
+      "package.json"
+     ]
+    }
+   ],
+   "signature": null,
+   "stages": null,
+   "layers": [],
+   "notes": [],
+   "contributions": 2
+  },
+  {
    "id": "rajat00-star",
    "name": "rajat00-star",
    "displayName": "Profile README",
@@ -1845,6 +2051,7 @@
   "omnipilot",
   "pramaan",
   "codeforge",
+  "living-system",
   "rajat00-star",
   "hand-tracking-using-opencv",
   "leetcode"
@@ -3691,13 +3898,13 @@
    ],
    [
     "2026-11-18",
-    0,
-    0
+    2,
+    1
    ]
   ],
   "stats": {
-   "total": 29,
-   "activeDays": 13,
+   "total": 31,
+   "activeDays": 14,
    "busiest": {
     "date": "2026-08-26",
     "count": 9
@@ -3708,7 +3915,7 @@
     "to": "2026-08-17"
    },
    "firstActive": "2026-08-06",
-   "lastActive": "2026-11-14",
+   "lastActive": "2026-11-18",
    "genesis": "2026-08-06",
    "ageDays": 104,
    "daysSinceGenesis": 105
@@ -3854,6 +4061,23 @@
     "count": 2,
     "parts": [],
     "unattributed": 2
+   },
+   {
+    "date": "2026-11-18",
+    "count": 2,
+    "parts": [
+     {
+      "repo": "living-system",
+      "kind": "commit",
+      "count": 1
+     },
+     {
+      "repo": "living-system",
+      "kind": "repository",
+      "count": 1
+     }
+    ],
+    "unattributed": 0
    }
   ],
   "restricted": 6
@@ -3897,6 +4121,96 @@
     ]
    },
    {
+    "id": "lang-javascript",
+    "label": "JavaScript",
+    "class": "language",
+    "bytes": 611511,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "CodeForge",
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "living-system",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-css",
+    "label": "CSS",
+    "class": "language",
+    "bytes": 208599,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "CodeForge",
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "CodeForge",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "living-system",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
+    "id": "lang-html",
+    "label": "HTML",
+    "class": "language",
+    "bytes": 44710,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "pramaan",
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "pramaan",
+      "path": "GitHub language statistics"
+     },
+     {
+      "repo": "living-system",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
     "id": "lang-python",
     "label": "Python",
     "class": "language",
@@ -3917,81 +4231,6 @@
      },
      {
       "repo": "CodeForge",
-      "path": "GitHub language statistics"
-     }
-    ]
-   },
-   {
-    "id": "lang-javascript",
-    "label": "JavaScript",
-    "class": "language",
-    "bytes": 289342,
-    "repos": [
-     "SafeCircle",
-     "OmniPilot",
-     "CodeForge"
-    ],
-    "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "OmniPilot",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "CodeForge",
-      "path": "GitHub language statistics"
-     }
-    ]
-   },
-   {
-    "id": "lang-css",
-    "label": "CSS",
-    "class": "language",
-    "bytes": 174704,
-    "repos": [
-     "SafeCircle",
-     "OmniPilot",
-     "CodeForge"
-    ],
-    "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "OmniPilot",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "CodeForge",
-      "path": "GitHub language statistics"
-     }
-    ]
-   },
-   {
-    "id": "lang-html",
-    "label": "HTML",
-    "class": "language",
-    "bytes": 44412,
-    "repos": [
-     "SafeCircle",
-     "OmniPilot",
-     "pramaan"
-    ],
-    "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "OmniPilot",
-      "path": "GitHub language statistics"
-     },
-     {
-      "repo": "pramaan",
       "path": "GitHub language statistics"
      }
     ]
@@ -4057,6 +4296,21 @@
     ]
    },
    {
+    "id": "lang-glsl",
+    "label": "GLSL",
+    "class": "language",
+    "bytes": 10495,
+    "repos": [
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "living-system",
+      "path": "GitHub language statistics"
+     }
+    ]
+   },
+   {
     "id": "lang-makefile",
     "label": "Makefile",
     "class": "language",
@@ -4080,7 +4334,8 @@
      "SafeCircle",
      "OmniPilot",
      "pramaan",
-     "CodeForge"
+     "CodeForge",
+     "living-system"
     ],
     "evidence": [
      {
@@ -4098,6 +4353,10 @@
      {
       "repo": "CodeForge",
       "path": "apps/web/package.json"
+     },
+     {
+      "repo": "living-system",
+      "path": "package.json"
      }
     ]
    },
@@ -4148,6 +4407,31 @@
      {
       "repo": "CodeForge",
       "path": "apps/api/requirements.txt"
+     }
+    ]
+   },
+   {
+    "id": "playwright",
+    "label": "Playwright",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "e2e/package.json"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     },
+     {
+      "repo": "living-system",
+      "path": "package.json"
      }
     ]
    },
@@ -4231,6 +4515,31 @@
     ]
    },
    {
+    "id": "threejs",
+    "label": "Three.js",
+    "class": "framework",
+    "bytes": 0,
+    "repos": [
+     "SafeCircle",
+     "OmniPilot",
+     "living-system"
+    ],
+    "evidence": [
+     {
+      "repo": "SafeCircle",
+      "path": "frontend/package.json"
+     },
+     {
+      "repo": "OmniPilot",
+      "path": "package.json"
+     },
+     {
+      "repo": "living-system",
+      "path": "package.json"
+     }
+    ]
+   },
+   {
     "id": "alembic",
     "label": "Alembic",
     "class": "framework",
@@ -4279,41 +4588,21 @@
     ]
    },
    {
-    "id": "playwright",
-    "label": "Playwright",
+    "id": "zod",
+    "label": "Zod",
     "class": "framework",
     "bytes": 0,
     "repos": [
-     "SafeCircle",
-     "OmniPilot"
+     "OmniPilot",
+     "living-system"
     ],
     "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": "e2e/package.json"
-     },
      {
       "repo": "OmniPilot",
       "path": "package.json"
-     }
-    ]
-   },
-   {
-    "id": "threejs",
-    "label": "Three.js",
-    "class": "framework",
-    "bytes": 0,
-    "repos": [
-     "SafeCircle",
-     "OmniPilot"
-    ],
-    "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": "frontend/package.json"
      },
      {
-      "repo": "OmniPilot",
+      "repo": "living-system",
       "path": "package.json"
      }
     ]
@@ -4454,17 +4743,32 @@
     ]
    },
    {
-    "id": "zod",
-    "label": "Zod",
-    "class": "framework",
+    "id": "github-actions",
+    "label": "GitHub Actions",
+    "class": "infrastructure",
     "bytes": 0,
     "repos": [
-     "OmniPilot"
+     "SafeCircle",
+     "pramaan",
+     "living-system",
+     "rajat00-star"
     ],
     "evidence": [
      {
-      "repo": "OmniPilot",
-      "path": "package.json"
+      "repo": "SafeCircle",
+      "path": ".github/workflows/ci.yml"
+     },
+     {
+      "repo": "pramaan",
+      "path": ".github/workflows/ci.yml"
+     },
+     {
+      "repo": "living-system",
+      "path": ".github/workflows/deploy.yml"
+     },
+     {
+      "repo": "rajat00-star",
+      "path": ".github/workflows/snake.yml"
      }
     ]
    },
@@ -4514,31 +4818,6 @@
      {
       "repo": "CodeForge",
       "path": "docker-compose.yml"
-     }
-    ]
-   },
-   {
-    "id": "github-actions",
-    "label": "GitHub Actions",
-    "class": "infrastructure",
-    "bytes": 0,
-    "repos": [
-     "SafeCircle",
-     "pramaan",
-     "rajat00-star"
-    ],
-    "evidence": [
-     {
-      "repo": "SafeCircle",
-      "path": ".github/workflows/ci.yml"
-     },
-     {
-      "repo": "pramaan",
-      "path": ".github/workflows/ci.yml"
-     },
-     {
-      "repo": "rajat00-star",
-      "path": ".github/workflows/snake.yml"
      }
     ]
    },
@@ -5079,6 +5358,51 @@
     "weight": 1
    },
    {
+    "repo": "living-system",
+    "tech": "lang-javascript",
+    "weight": 0.8782
+   },
+   {
+    "repo": "living-system",
+    "tech": "lang-css",
+    "weight": 0.0924
+   },
+   {
+    "repo": "living-system",
+    "tech": "lang-glsl",
+    "weight": 0.0286
+   },
+   {
+    "repo": "living-system",
+    "tech": "lang-html",
+    "weight": 0.0008
+   },
+   {
+    "repo": "living-system",
+    "tech": "github-actions",
+    "weight": 1
+   },
+   {
+    "repo": "living-system",
+    "tech": "playwright",
+    "weight": 1
+   },
+   {
+    "repo": "living-system",
+    "tech": "react",
+    "weight": 1
+   },
+   {
+    "repo": "living-system",
+    "tech": "threejs",
+    "weight": 1
+   },
+   {
+    "repo": "living-system",
+    "tech": "zod",
+    "weight": 1
+   },
+   {
     "repo": "rajat00-star",
     "tech": "github-actions",
     "weight": 1
@@ -5091,6 +5415,13 @@
   ]
  },
  "activity": [
+  {
+   "at": "2026-11-18T15:24:28Z",
+   "repo": "living-system",
+   "kind": "created",
+   "text": "repository created",
+   "source": "repository"
+  },
   {
    "at": "2026-11-18T06:48:21Z",
    "repo": "rajat00-star",
