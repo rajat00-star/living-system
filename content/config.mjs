@@ -54,6 +54,7 @@ export const config = {
     'Hand-Tracking-Using-OpenCV': 'Hand Tracking',
     Leetcode: 'Leetcode',
     'rajat00-star': 'Profile README',
+    'living-system': 'The Living System',
   },
 
   // Each specimen's signature geometry, chosen from what its README says it does.

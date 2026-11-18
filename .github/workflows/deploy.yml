@@ -50,13 +50,29 @@ jobs:
 
       # The committed snapshot is the fallback for a failed read, and a commit keeps this
       # schedule alive (GitHub pauses schedules in repositories with no activity for 60 days).
-      # Only real changes are committed: timestamps alone are not.
+      # Only real changes are committed. Timestamps do not count, and neither does this
+      # repository's own record: every snapshot commit changes its commit count and push time,
+      # so counting them would make each run commit again, for ever.
       - name: Keep the snapshot when the data changed
+        env:
+          SELF: ${{ github.event.repository.name }}
         run: |
           if git cat-file -e HEAD:data/snapshot.json 2>/dev/null; then
-            git show HEAD:data/snapshot.json > /tmp/previous.json
-            if node -e "const strip=(o)=>{delete o.generatedAt;delete o.source;return JSON.stringify(o)};const a=require('/tmp/previous.json');const b=require('./data/snapshot.json');process.exit(strip(a)===strip(b)?0:1)"; then
-              echo "Data unchanged; nothing to commit."
+            git show HEAD:data/snapshot.json > "$RUNNER_TEMP/previous.json"
+            if node -e "
+              const self = process.env.SELF;
+              const strip = (o) => {
+                for (const k of ['generatedAt', 'source', 'totals', 'languages', 'tech']) delete o[k];
+                o.repos = o.repos.filter((r) => r.name !== self);
+                o.activity = o.activity.filter((a) => a.repo !== self);
+                o.order = o.order.filter((id) => id !== self);
+                return JSON.stringify(o);
+              };
+              const a = require(process.env.RUNNER_TEMP + '/previous.json');
+              const b = require('./data/snapshot.json');
+              process.exit(strip(a) === strip(b) ? 0 : 1);
+            "; then
+              echo "Nothing changed outside this repository; nothing to commit."
               exit 0
             fi
           fi
